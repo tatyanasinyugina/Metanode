@@ -13,3 +13,4 @@ Author's materials: https://tatiana-siniugina.gv966ysyr2.chatgpt.site/
 Metanoda explores how different processes connect, what is preserved during a transfer between them, and what new possibilities emerge.
 
 This repository is intended to document the system, its concepts, observations, research questions, and hypotheses. Observations, theoretical interpretations, and hypotheses should be distinguished clearly; claims require further examination and verification.
+Monograph - Tatyana Sinyugina (Russian/ English) 
