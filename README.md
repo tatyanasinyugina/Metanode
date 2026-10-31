@@ -20,3 +20,5 @@ https://github.com/lilitsharoian/Metanode/blob/main/Six_Stages_Student_GPT_Autis
 Metanode Six Methods for GPT file added 
 https://github.com/lilitsharoian/Metanode/commit/a2a3bf0d730b3783f3eb58556e0517062da72e1f
 Technology of collaboration with GPT file added 
+Technology of collaboration with GPT pdf  
+
