@@ -17,3 +17,4 @@ Monograph - Tatyana Sinyugina (Russian/ English)
 https://github.com/lilitsharoian/Metanode/blob/main/%D0%9C%D0%B5%D1%82%D0%B0%D0%BD%D0%BE%D0%B4%D0%B0_%D0%A2%D0%B0%D1%82%D1%8C%D1%8F%D0%BD%D1%8B_%D0%A1%D0%B8%D0%BD%D1%8E%D0%B3%D0%B8%D0%BD%D0%BE%D0%B9_RU_EN%202.md 
 Comparing Six Stages in a Student GPT and an Autistic Child Based on Tatiana Sinyugina’s methods file added 
 https://github.com/lilitsharoian/Metanode/blob/main/Six_Stages_Student_GPT_Autistic_Learner_EN.md
+Metanode Six Methods for GPT file added 
