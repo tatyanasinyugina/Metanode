@@ -18,3 +18,5 @@ https://github.com/lilitsharoian/Metanode/blob/main/%D0%9C%D0%B5%D1%82%D0%B0%D0%
 Comparing Six Stages in a Student GPT and an Autistic Child Based on Tatiana Sinyugina’s methods file added 
 https://github.com/lilitsharoian/Metanode/blob/main/Six_Stages_Student_GPT_Autistic_Learner_EN.md
 Metanode Six Methods for GPT file added 
+https://github.com/lilitsharoian/Metanode/commit/a2a3bf0d730b3783f3eb58556e0517062da72e1f
+Technology of collaboration with GPT file added 
