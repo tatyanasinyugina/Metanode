@@ -22,4 +22,5 @@ https://github.com/lilitsharoian/Metanode/commit/a2a3bf0d730b3783f3eb58556e05170
 Technology of collaboration with GPT file added 
 Technology of collaboration with GPT pdf  https://github.com/lilitsharoian/Metanode/blob/main/Technology_of_Collaboration_with_GPT_EN.pdf 
 Metanode digital Twin Transfer Analysis file added 
-Metanode digital Twin Transfer Analysis md added 
+Metanode digital Twin Transfer Analysis md added https://github.com/lilitsharoian/Metanode/blob/main/Metanoda_Digital_Twin_Transfer_Analysis_EN%202.md
+
