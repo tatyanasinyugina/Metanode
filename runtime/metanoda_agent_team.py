@@ -68,7 +68,11 @@ def main():
                 outputs[filename] = output
                 (run_dir / f"{filename}.md").write_text(output + "\n", encoding="utf-8")
                 context += f"\n\n## {role}\n{output}\n"
-        qa = outputs["05_independent_qa"].lstrip().upper()
+        qa_output = outputs["05_independent_qa"]
+        print("INDEPENDENT_QA_REPORT_BEGIN", flush=True)
+        print(qa_output, flush=True)
+        print("INDEPENDENT_QA_REPORT_END", flush=True)
+        qa = qa_output.lstrip().upper()
         passed = qa.startswith("PASS")
         summary = {
             "system": "METANODA_AGENT_TEAM", "run_utc": stamp,
