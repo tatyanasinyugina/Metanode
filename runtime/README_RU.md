@@ -26,3 +26,11 @@ credentials через GitHub Actions Secrets. Значения секретов
 - `operations/A6_CONTENT_AGENT_TRAINING_HANDOFF_RU.md`
 - `operations/SOCIAL_MEDIA_AGENT_EXECUTION_REGISTER_RU.md`
 - `Метанода_Татьяны_Синюгиной_RU_EN 2.md`
+
+## METANODA AI Agent Team — новая версия
+
+В ветке добавлены `runtime/metanoda_agent_team.py` и `.github/workflows/metanoda-agent-team.yml`.
+
+Четыре последовательных AI-этапа: проверка публичного источника → стратегия → RU/EN редактура → независимый QA. Модель получает только публичный URL главного сайта и результаты предыдущих этапов. Ей не предоставляются инструменты чтения/записи репозитория, shell или публикации. Результаты сохраняются в `operations/agent_runs/`.
+
+Публикация не выполняется: статус всегда `NOT_PUBLISHED`, пока отдельное разрешение и внешний publishing workflow не подтверждены. Доступ к Copilot CLI через защищённый Actions secret `COPILOT_GITHUB_TOKEN` обязателен. До добавления секрета реальный AI-run не подтверждён.
