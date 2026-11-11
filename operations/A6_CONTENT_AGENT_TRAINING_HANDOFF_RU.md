@@ -233,3 +233,27 @@ Before the first new post, A6 must pass all of the following:
 6. Return a final release decision and preserve the evidence.
 
 A6 is considered **trained for this workflow** only after this test is recorded. Until then, status is “instructions and corpus transferred; execution test pending”.
+
+
+## 12. Visual production repair — 11.11.2026
+
+### Diagnosis
+- A5 existed in the repository, but its role description was too generic and did not define an executable production workflow or quality scorecard.
+- A6 depended on A5 output without a hard acceptance contract for originality, mobile legibility, format fit, asset integrity and visual variation.
+- Existing image library contained duplicates and a previously selected carousel image upload_ref was rejected by Instagram as missing/0 bytes.
+- Recent image posts reused one abstract luminous geometric passage motif, creating repetition risk and weak content-specific visual storytelling.
+
+### Changes committed in working branch
+- Updated `agents/A5_VISUAL_MULTIMEDIA_RU.md` (commit `c124f66e4b149fb5d61f7376a0e9c4edfc1b35d7`).
+- Added `operations/METANODA_VISUAL_PRODUCTION_STANDARD_RU.md` (commit `366cc63551f7880a8060e4f9badba6ce0d40c5d0`).
+- Standard defines format rules, three distinct concept routes, mobile-first preview, visual source fidelity, anti-repetition register, upload integrity, A5→A6 handoff and 16-point quality scorecard (minimum 13/16; critical gates cannot score zero).
+
+### Live visual repair test
+- Opened Instagram Creative Picker for `IGI` / `@metanoda.ai` and passed three different art-direction prompts for the monograph-opening draft “Что есть развитие?” / “What is development?”
+- Directions: evolving spatial architecture with a human-scale reference; sculptural architecture/continuous transformation; interconnected spatial system with embedded observer.
+- Format requested: 1080×1350 (4:5), high quality, no text/logos, no galaxy/portal/neural-network clichés.
+- Picker returned the existing asset library and opened the preview workflow. No generated image asset or fresh upload_ref has yet been confirmed in the tool result; status is **preview pending**, not complete.
+- No post was published, edited or deleted. Publishing remains paused.
+
+### Completion criteria
+The visual process is not declared repaired until a concrete preview is reviewed, a valid new upload_ref is confirmed, the file passes technical validation and the A5 scorecard, and A6 receives the full handoff.
