@@ -192,3 +192,15 @@ Both records remain published and untouched. Neither is accepted as a corrected 
 - A6 handoff and source references are recorded in the branch.
 - “Training” here means source corpus + operational instructions + negative examples; no model fine-tuning or autonomous deployment is claimed.
 - Publishing remains paused until a draft passes the new source-to-post readiness test. The five-minute Instagram check is a separate verification task; it must report the actual latest media and not assume a new post exists.
+
+
+## 14. A6 source-to-post validation draft — 11.11.2026
+
+- Added `operations/A6_POST_DRAFT_001_DEVELOPMENT_RU_EN.md` (commit `af9c8b42c660bb3663f44487f2809284cd32474d`).
+- Task identity: public METANODA post grounded in T. I. Sinyugina's monograph, not AI self-analysis.
+- Exact source checked in the monograph opening: “Что есть развитие?”; “Развитие — это способ существования человека.”; “Развитие — это способ существования Космоса.”; and the sentence defining development as a fundamental mode of existence of the human being and the Cosmos.
+- Draft caption prepared in RU/EN. English quote is labelled as an editorial translation, not as a separately verified original English quote. Hook is labelled as editorial adaptation.
+- A6 source fidelity, attribution and task-identity gates passed on the draft.
+- Media gate blocked: existing slide 2 upload_ref `upl_UgaGZFG7URpqQVYNHYtI2A` was rejected by Instagram publishing API as missing/0 bytes. No post was scheduled or published; no media_id/permalink exists for this draft.
+- Creative Picker is already open for preview/upload. Required next technical action is a fresh upload there and use of the returned upload_ref. Do not call Creative Picker again until the user responds with the uploaded asset.
+- A6 end-to-end readiness remains pending; no claim of completed training/deployment.
