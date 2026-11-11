@@ -260,3 +260,15 @@ Runway task `15ad3fc6-53f6-4b84-86a5-fcf2ec4db957`; визуал ivory planes / 
 - Старый scorecard 13/16 заменяется на 15/18 с обязательным Content relevance = 2.
 - Полноценный end-to-end visual test ещё не пройден.
 - Публикации остаются на паузе; никаких постов не выпущено в рамках этого обновления.
+
+
+## 18. Live Instagram / YouTube audit — 11.11.2026
+
+Created [live audit report](INSTAGRAM_YOUTUBE_LIVE_CONTENT_AUDIT_2026-11-11_RU.md), including connected accounts, seven recent Instagram media objects, early performance snapshot, visual inspection, YouTube Short state, and next corrective action.
+
+- Negative Example 002: generic corridor Reel cover `DfkoS8DhuNe` (67 reach, 68 views, 3 comments early snapshot; not an approved visual reference).
+- Negative Example 003: carousel `DflbCvzDQia` — child/cosmos imagery default, generic cube, slide 5 text collision.
+- Representation risk: `Dfkm4J9uO5i` caption claims an imaginary conversation with Elon Musk.
+- YouTube `TtJEDT-mChs`: upload completed, still private, scheduled for `2026-11-12T12:00:00Z`; verify public state after schedule.
+- Source-grounded floor → wall → volume prompt staged in creative picker; no new asset/upload_ref returned.
+- No new Instagram or YouTube publication occurred during this audit. A5 readiness FAIL; A6 PARTIAL. Do not claim end-to-end success.
