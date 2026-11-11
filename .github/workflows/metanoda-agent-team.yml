@@ -28,6 +28,15 @@ jobs:
         with:
           ref: agents/social-media-execution
 
+      - name: Check Copilot access secret
+        env:
+          COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
+        run: |
+          if [ -z "$COPILOT_GITHUB_TOKEN" ]; then
+            echo "::error::Missing repository secret COPILOT_GITHUB_TOKEN. No agent was run."
+            exit 3
+          fi
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
@@ -43,7 +52,7 @@ jobs:
 
       - name: Run four-stage agent team
         env:
-          COPILOT_GITHUB_TOKEN: ${{ github.token }}
+          COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
         run: python runtime/metanoda_agent_team.py
 
       - name: Save report to GitHub
