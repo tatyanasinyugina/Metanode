@@ -148,3 +148,12 @@ A successful `validate_only` result proves only technical publishability (parame
 Two rejected negative examples are documented in `operations/A6_CONTENT_AGENT_TRAINING_HANDOFF_RU.md`: media_id `18094224926280271` (unsupported authorial attribution) and `17995943901056987` (task-object substitution). Do not repeat, duplicate or present either as a corrected post. Preserve published records; do not edit or delete without a separate user instruction.
 
 **Training status:** source corpus and task history transferred into repository instructions. This is not model-weight fine-tuning or deployment of an autonomous service. A6 is “trained for this workflow” only after the readiness test in the handoff is passed and recorded.
+
+
+## 14. Visual production gate — mandatory A5 handoff
+
+A6 must use `agents/A5_VISUAL_MULTIMEDIA_RU.md` and `operations/METANODA_VISUAL_PRODUCTION_STANDARD_RU.md` for every visual asset. The previous A5 role description was too generic to guarantee production quality; A5 has now been upgraded with a 3-concept pipeline, mobile-first checks, format-specific rules, asset integrity checks and a 16-point scorecard.
+
+A6 must reject a visual unless the handoff contains: source locator; visual objective; selected concept and rejected alternatives; preview; final upload_ref; dimensions/content type/verified non-zero file; alt-text; rights/provenance; scorecard >=13/16 with no critical zero; status. A prompt or saved-library listing is not an asset. An old upload_ref is not proof of a valid file.
+
+Do not use the same central metaphor in consecutive feed posts. Across six feed items, rotate at least three visual mechanisms and two format families. Keep brand palette consistent but vary composition and medium. AI images for Instagram must go through Creative Picker preview; do not bypass user review.
