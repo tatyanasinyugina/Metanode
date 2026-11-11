@@ -157,3 +157,7 @@ A6 must use `agents/A5_VISUAL_MULTIMEDIA_RU.md` and `operations/METANODA_VISUAL_
 A6 must reject a visual unless the handoff contains: source locator; visual objective; selected concept and rejected alternatives; preview; final upload_ref; dimensions/content type/verified non-zero file; alt-text; rights/provenance; scorecard >=13/16 with no critical zero; status. A prompt or saved-library listing is not an asset. An old upload_ref is not proof of a valid file.
 
 Do not use the same central metaphor in consecutive feed posts. Across six feed items, rotate at least three visual mechanisms and two format families. Keep brand palette consistent but vary composition and medium. AI images for Instagram must go through Creative Picker preview; do not bypass user review.
+
+
+## Единый визуальный стандарт
+Обязательный полный гайд, включая арт-дирекцию, форматы, производственный конвейер, scorecard, anti-repetition, handoff и визуальный пример: [METANODA_VISUAL_AGENT_GUIDE_RU.md](METANODA_VISUAL_AGENT_GUIDE_RU.md). Этот гайд имеет приоритет над общими описаниями визуального процесса.
