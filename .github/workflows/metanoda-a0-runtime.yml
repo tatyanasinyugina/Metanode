@@ -7,9 +7,8 @@ on:
     paths:
       - "runtime/**"
       - "operations/**"
+      - "!operations/receipts/**"
       - ".github/workflows/metanoda-a0-runtime.yml"
-    paths-ignore:
-      - "operations/receipts/**"
   workflow_dispatch:
 
 permissions:
