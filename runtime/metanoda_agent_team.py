@@ -37,7 +37,7 @@ Earlier stage context:
 Return a concise structured result. If the source cannot be read, say BLOCKED.
 """
     cmd = ["copilot", "-p", prompt, "-s", "--no-ask-user",
-           "--available-tools=web_fetch", "--allow-tool=url", f"--allow-url=https://{ALLOWED_HOST}"]
+           "--available-tools=web_fetch", "--allow-tool=url", f"--allow-url={ALLOWED_HOST}"]
     result = subprocess.run(cmd, cwd=str(workdir), text=True, capture_output=True,
                             timeout=600, check=False)
     if result.returncode:
@@ -49,8 +49,8 @@ Return a concise structured result. If the source cannot be read, say BLOCKED.
     return output
 
 def main():
-    if not os.environ.get("COPILOT_GITHUB_TOKEN"):
-        print("BLOCKED: missing repository secret COPILOT_GITHUB_TOKEN")
+    if not os.environ.get("GITHUB_TOKEN"):
+        print("BLOCKED: missing GitHub Actions GITHUB_TOKEN")
         return 3
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     run_dir = OUTPUT_ROOT / stamp
