@@ -392,3 +392,27 @@ NEXT CHECKPOINT:
 ```
 
 **Финальное правило:** сначала понять и точно локализовать мысль; затем доказать, почему выбранная визуальная форма её раскрывает; затем производить; затем технически проверять; затем передавать на редакционную приёмку. Любая обратная последовательность создаёт риск красивого, но нерелевантного контента.
+
+
+## 17. Live audit additions — 11.11.2026
+
+See [live Instagram / YouTube audit](../operations/INSTAGRAM_YOUTUBE_LIVE_CONTENT_AUDIT_2026-11-11_RU.md).
+
+### Negative Example 002 — generic corridor
+Instagram Reel `18138104302642770`, shortcode `DfkoS8DhuNe`. Cover is a dark corridor with light at the far end. It is a generic passage/unknown metaphor, not a source-mapped representation of the spatial method. It returned 67 reach, 68 views, 3 comments at the early snapshot; those engagement values do not convert the visual into an approved reference.
+
+### Negative Example 003 — carousel child/cosmos default + text collision
+Instagram carousel `18132658087748911`, shortcode `DflbCvzDQia`.
+- Slides 1 and 3 default to child/cosmos imagery, narrowing the topic to children rather than the selected proposition.
+- Slide 4 uses a generic glowing cube/geometry, not the source's floor → wall → volume transition.
+- Slide 5 has visibly overlapping text/dialogue layers; source text is obscured.
+- Do not reuse as a positive reference. Do not edit/delete the live post without separate authorization.
+
+### Representation risk
+Instagram Reel `17992386372118777`, shortcode `Dfkm4J9uO5i`, caption presents an “imaginary conversation” between Tatyana Sinyugina and Elon Musk. Do not reuse fabricated dialogue or imply a real conversation/endorsement. Existing post remains untouched.
+
+### YouTube publication state
+Video `TtJEDT-mChs` is a 16-second Short. vidIQ reports the upload completed, but YouTube metadata says private with `scheduledPublishAt=2026-11-12T12:00:00Z`. A video with a publish time stays private until that time. Recheck after schedule; do not duplicate. Thumbnail was unavailable while private.
+
+### Current status
+The new source-grounded prompt for a 1080×1350 schematic of horizontal floor → vertical wall → connected volumetric space was staged in the Instagram creative picker, but no new asset or fresh upload_ref was returned. No new post was created or published during the audit. A5 readiness remains FAIL until a reviewed asset passes the scorecard; A6 is PARTIAL until a new approved draft is published and verified.
