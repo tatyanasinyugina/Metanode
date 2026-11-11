@@ -15,7 +15,7 @@ permissions:
   copilot-requests: write
 
 concurrency:
-  group: metanoda-agent-team-${{ github.ref }}
+  group: metanoda-branch-write-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -42,7 +42,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run four-stage agent team
+      - name: Run five-stage agent team
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: python runtime/metanoda_agent_team.py
@@ -57,6 +57,8 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add operations/agent_runs/
             git commit -m "Record METANODA AI agent run"
+            git fetch origin agents/social-media-execution
+            git rebase origin/agents/social-media-execution
             git push origin HEAD:agents/social-media-execution
           else
             echo "No report generated; nothing to commit."
