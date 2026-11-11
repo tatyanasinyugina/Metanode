@@ -44,3 +44,14 @@
 ## Безопасность
 
 Не хранить токены, ключи, персональные данные или приватные материалы в журнале. Секреты — только в защищённых хранилищах. Не публиковать материалы без отдельного разрешения на конкретную публикацию.
+## AI Agent Team — 11.11.2026
+
+- Код оркестратора: `runtime/metanoda_agent_team.py`.
+- GitHub Actions workflow: `.github/workflows/metanoda-agent-team.yml`.
+- Этапы: source auditor → distribution strategist → bilingual editor → independent QA.
+- Источник для модели: только публичный сайт `https://tatyana-open-dialogue.gv966ysyr2.chatgpt.site/` и результаты предыдущих этапов.
+- Доступ модели: только URL tool; нет чтения/записи файлов репозитория, shell или публикации.
+- Выход: `operations/agent_runs/<UTC timestamp>/`.
+- Текущий статус: `CODE_COMMITTED / WAITING_FOR_COPILOT_SECRET / NOT_RUN_VERIFIED`.
+- Требуемый Actions secret: `COPILOT_GITHUB_TOKEN` (fine-grained PAT; Copilot Requests: Read). Токен не передавать в чат.
+- После добавления секрета следующий файл-задание в `operations/agent_queue/` запустит workflow через push в рабочую ветку.
