@@ -257,3 +257,28 @@ A6 принимает визуал только при наличии полно
 - [A6 — Media Channel Editor](../agents/A6_MEDIA_CHANNEL_EDITOR_RU.md)
 - [A6 content training handoff](../operations/A6_CONTENT_AGENT_TRAINING_HANDOFF_RU.md)
 - [Social media execution register](../operations/SOCIAL_MEDIA_AGENT_EXECUTION_REGISTER_RU.md)
+
+
+## 12. Критическое дополнение: relevance gate, отрицательный пример и SLA — 11.11.2026
+
+Этот раздел уточняет и имеет приоритет над прежним scorecard и тестом «Что есть развитие?». Положительный смысловой пример не означает, что любая общая визуальная метафора для него допустима.
+
+### Negative Example 001 — отклонённый пользователем визуал
+- Runway task: `15ad3fc6-53f6-4b84-86a5-fcf2ec4db957`.
+- Выход: предметная композиция ivory architectural planes / translucent sheets / cobalt-blue pieces.
+- Вердикт пользователя: “Not relevant content”.
+- Диагноз: эстетически аккуратная, но общая метафора; не раскрывает конкретную proposition METANODA и не имеет проверяемого соответствия между элементами кадра и авторским фрагментом.
+- Дополнительный дефект: выход 3:4 вместо требуемого 4:5.
+- Статус: отклонено; не считать approved asset и не использовать как положительный визуальный референс.
+
+### Новый обязательный порядок
+Exact proposition → source locator → meaning map → element-to-source mapping → inference boundary → audience reason → visual concept → generation → phone/source review → technical integrity → handoff.
+Если визуал объясняется только ассоциацией («развитие = раскрывающаяся архитектура»), relevance максимум 1 и производство блокируется.
+
+### Новый scorecard
+Добавить девятый критерий **Content relevance**. Максимум 18 баллов; порог 15/18; Content relevance = 2 обязательно. Ноль по source fidelity, mobile legibility, format fit или rights/provenance — безусловный отказ. Ноль по relevance — немедленный stop, без дальнейшей полировки.
+
+### Временные нормативы
+Одиночный feed/cover — до 90 минут; carousel 4–6 слайдов — до 3 часов; Reel 15–30 секунд — до 4 часов. Стандартная разбивка: intake 5 мин; source/rights 10 мин; meaning map/relevance 10 мин; audience/format 5 мин; concepts 10 мин; preview 15 мин; phone/source review 10 мин; export 10 мин; upload integrity 5 мин; scorecard/handoff 10 мин. Внешнее ожидание и обязательный review фиксируются отдельно.
+
+Подробная версия, включая цели, KPI, входную карточку, технические форматы, чеклисты, five readiness tests и отчётную форму: [METANODA_VISUAL_TECHNICAL_EXECUTION_GUIDE_RU.md](METANODA_VISUAL_TECHNICAL_EXECUTION_GUIDE_RU.md).
