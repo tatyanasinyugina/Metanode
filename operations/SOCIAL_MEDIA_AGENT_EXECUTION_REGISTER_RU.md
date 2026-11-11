@@ -204,3 +204,12 @@ Both records remain published and untouched. Neither is accepted as a corrected 
 - Media gate blocked: existing slide 2 upload_ref `upl_UgaGZFG7URpqQVYNHYtI2A` was rejected by Instagram publishing API as missing/0 bytes. No post was scheduled or published; no media_id/permalink exists for this draft.
 - Creative Picker is already open for preview/upload. Required next technical action is a fresh upload there and use of the returned upload_ref. Do not call Creative Picker again until the user responds with the uploaded asset.
 - A6 end-to-end readiness remains pending; no claim of completed training/deployment.
+
+
+## 15. Instagram baseline after A6 draft preparation — 11.11.2026
+
+Source: Supermetrics `IGI`, account `17841470456952988`, `AccountMedia`, `last_7_days_inc`, timezone `Asia/Omsk`, cache_used=false.
+- Returned media included `18138104302642770` (reach 67, comments 3), `18094224926280271` (Error A), `18077227664766700`, `18122211415978141`, `17992386372118777`, `17991938421081819`, and `18132109735827225`.
+- The API response did not include the more recent post `17995943901056987` (permalink https://www.instagram.com/p/DflZni7jMeQ/) even though its publish call returned `status: applied`. Treat this as a possible reporting/indexing delay, not proof that the post is absent. Recheck after the requested interval and compare with the direct permalink.
+- Empty/zero metrics remain provisional API values; they are not a final content-quality assessment.
+- The next author-grounded draft is `A6_POST_DRAFT_001_DEVELOPMENT_RU_EN.md`; it remains unpublished because its selected image upload_ref was missing/0 bytes. Do not claim a new post exists until Instagram returns a fresh media_id and permalink.
