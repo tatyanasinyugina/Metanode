@@ -36,8 +36,10 @@ Earlier stage context:
 {context if context else "(No earlier stage output.)"}
 Return a concise structured result. If the source cannot be read, say BLOCKED.
 """
-    cmd = ["copilot", "-p", prompt, "-s", "--no-ask-user",
-           "--available-tools=web_fetch", "--allow-tool=url", f"--allow-url={ALLOWED_HOST}"]
+    cmd = ["copilot", "-p", prompt, "-s",
+           "--available-tools=web_fetch",
+           f"--allow-tool=url({ALLOWED_HOST})",
+           f"--allow-url={ALLOWED_HOST}"]
     result = subprocess.run(cmd, cwd=str(workdir), text=True, capture_output=True,
                             timeout=600, check=False)
     if result.returncode:
