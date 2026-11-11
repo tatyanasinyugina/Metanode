@@ -213,3 +213,24 @@ Source: Supermetrics `IGI`, account `17841470456952988`, `AccountMedia`, `last_7
 - The API response did not include the more recent post `17995943901056987` (permalink https://www.instagram.com/p/DflZni7jMeQ/) even though its publish call returned `status: applied`. Treat this as a possible reporting/indexing delay, not proof that the post is absent. Recheck after the requested interval and compare with the direct permalink.
 - Empty/zero metrics remain provisional API values; they are not a final content-quality assessment.
 - The next author-grounded draft is `A6_POST_DRAFT_001_DEVELOPMENT_RU_EN.md`; it remains unpublished because its selected image upload_ref was missing/0 bytes. Do not claim a new post exists until Instagram returns a fresh media_id and permalink.
+
+
+## 16. Visual production decline — diagnosis and repair, 11.11.2026
+
+**User instruction:** “Исправить проседание в создании визуального контента”.
+
+### Root cause identified
+A5 existed but its project instruction was only a generic description. It did not specify visual concept diversity, art direction, platform formats, phone-size readability, asset integrity, quality scoring or a repeat-prevention register. A6 requested A5 assets but had no hard acceptance contract. Existing asset library contained duplicate slide uploads; one intended carousel image upload_ref was rejected as missing/0 bytes. Recent content relied on a repeated abstract luminous threshold motif. These are observable process weaknesses; performance causality is not yet established.
+
+### Changes
+- A5 instruction updated: `agents/A5_VISUAL_MULTIMEDIA_RU.md`, commit `c124f66e4b149fb5d61f7376a0e9c4edfc1b35d7`.
+- New production standard: `operations/METANODA_VISUAL_PRODUCTION_STANDARD_RU.md`, commit `366cc63551f7880a8060e4f9badba6ce0d40c5d0`.
+- Three distinct concept routes required: documentary/process-led; explanatory/editorial graphic; conceptual/art-directed metaphor.
+- Added platform-native dimensions, mobile-first checks, non-zero upload verification, source-fidelity and rights gates, anti-repetition register and 16-point scorecard (pass >=13/16; no critical zero).
+- A6 must reject visuals without preview, exact source locator, verified upload_ref, alt-text, provenance and scorecard.
+
+### Live test state
+- Creative Picker opened for IGI, with three distinct 4:5 high-quality prompt directions for the existing source-grounded draft “Что есть развитие?”
+- The picker result confirms the review workflow opened and exposes the saved library. It does not yet confirm a newly generated image or fresh upload_ref. Status: `preview_pending`.
+- No publishing action was taken; no existing post was changed or removed.
+- Full repair remains pending until a concrete image is reviewed and passes technical and visual QA.
