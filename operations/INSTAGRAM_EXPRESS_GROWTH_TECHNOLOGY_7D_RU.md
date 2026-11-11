@@ -221,3 +221,15 @@
 10. explicit distinction between achieved results, unavailable metrics and hypotheses.
 
 **Не заявлять достижение 100 000 подписчиков, если Instagram owner insights не подтвердил это значение.**
+
+
+## 11. Live implementation log — 11.11.2026
+
+- Audited current Instagram publishing queue. Existing scheduled posts `8164` and `8165` remain scheduled for 16:00 and 19:00 Asia/Omsk; no duplicate was created.
+- Re-read live owner insights: 1 follower, 286 account reach, 4 profile visits, 0 website taps, 34 interactions for the current month through the query date.
+- Reviewed recent Reel retention. The 20-second agent introduction averaged 3.78 seconds watched (18.9%); the 16-second same-space Reel averaged 4.71 seconds (29.5%); the 15-second corridor Reel averaged 3.75 seconds (25.0%) with 82.1% skip. These are early/lifetime snapshots with small samples, not statistically stable winners.
+- Completed a public outlier scan of Instagram AI/technology content. Observed repeated high-performing structures: concrete opening claim/question, visible process or demonstration, step-by-step explanation, immediate value. The examples and their URLs are recorded in §3.
+- Created a new source-grounded 4:5 schematic visual for the author-based spatial-progression post; asset ref: `upl_6HfmYyqBI0lRx1gnY6I1fw`. The Creative Picker review was opened for the user.
+- Ran Instagram `validate_only` on the image post. Result: **valid**; media URL reachable, image content type accepted, write access active, 86 posts left in the 24-hour window. Validation did not publish, stage or schedule the post.
+- **Publication state: not published.** The AI visual must be reviewed by the user before the asset is used. Do not infer approval from the technical validation.
+- Created this 7-day technology document in the working branch. No merge to `main`.
