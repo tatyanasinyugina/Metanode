@@ -282,3 +282,29 @@ Exact proposition → source locator → meaning map → element-to-source mappi
 Одиночный feed/cover — до 90 минут; carousel 4–6 слайдов — до 3 часов; Reel 15–30 секунд — до 4 часов. Стандартная разбивка: intake 5 мин; source/rights 10 мин; meaning map/relevance 10 мин; audience/format 5 мин; concepts 10 мин; preview 15 мин; phone/source review 10 мин; export 10 мин; upload integrity 5 мин; scorecard/handoff 10 мин. Внешнее ожидание и обязательный review фиксируются отдельно.
 
 Подробная версия, включая цели, KPI, входную карточку, технические форматы, чеклисты, five readiness tests и отчётную форму: [METANODA_VISUAL_TECHNICAL_EXECUTION_GUIDE_RU.md](METANODA_VISUAL_TECHNICAL_EXECUTION_GUIDE_RU.md).
+
+
+## 14. Обязательное дополнение: relevance gate и отрицательный пример 001 — 11.11.2026
+
+**Пользовательская оценка визуала:** “Not relevant content”.
+
+- Runway task: `15ad3fc6-53f6-4b84-86a5-fcf2ec4db957`.
+- Визуал: эстетичная предметная композиция ivory-плоскостей, полупрозрачных листов и cobalt-blue элементов.
+- Причина отклонения: общая ассоциация с развитием не раскрывает конкретную мысль из авторского источника; не показано, почему именно этот визуал нужен для данной темы.
+- Техническое замечание: генератор вернул 3:4 вместо целевого 4:5.
+- Статус: отрицательный пример; не использовать как позитивный референс, стиль или готовый asset.
+
+### Новый обязательный порядок
+1. Exact source proposition + точный локатор.
+2. Meaning map: что именно источник говорит, что визуал должен показать, чего нельзя подразумевать.
+3. Visual mapping: связь каждого ключевого элемента с конкретной частью положения.
+4. Три разные концепции.
+5. Preview и проверка релевантности.
+6. Только после relevance pass — художественная полировка и финальная генерация.
+
+### Обновлённый scorecard
+Добавлен отдельный критерий **Content relevance** (0–2). 0 — визуал не относится к задаче; 1 — только общая ассоциация; 2 — точно раскрывает конкретную мысль. Требуется **не менее 15/18 и Content relevance = 2**. Ноль по source fidelity, mobile legibility, format fit, technical integrity или rights/provenance блокирует handoff.
+
+Полный регламент с расписанием, целями, KPI, техническими требованиями и тестами: [METANODA_VISUAL_TECHNICAL_AGENT_PLAYBOOK_RU.md](../operations/METANODA_VISUAL_TECHNICAL_AGENT_PLAYBOOK_RU.md).
+
+Это дополнение имеет приоритет над прежним 16-балльным scorecard: старый порог 13/16 заменён на 15/18 с обязательным Content relevance = 2.
