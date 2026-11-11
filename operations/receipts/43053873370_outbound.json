@@ -1,0 +1,15 @@
+{
+  "system": "METANODA",
+  "request_id": "METANODA-OUTBOUND-2026-11-11-01",
+  "github_run_id": "43053873370",
+  "github_run_url": "https://github.com/tatyanasinyugina/Metanode/actions/runs/43053873370",
+  "source_repository": "tatyanasinyugina/Metanode",
+  "source_branch": "agents/social-media-execution",
+  "source_commit": "181128f48ccac20d6940e5e5344d74fabf9090a2",
+  "source_validation": "PASS",
+  "outbound_adapter_status": "BLOCKED",
+  "provider_receipt_status": "NOT_RECEIVED",
+  "publication_status": "NOT_AUTHORIZED",
+  "returned_to_github": true,
+  "note": "Protected executor URL/token are not configured; no external request was sent."
+}\n
