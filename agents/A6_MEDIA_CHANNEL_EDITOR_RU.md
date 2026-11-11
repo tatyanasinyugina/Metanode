@@ -178,3 +178,9 @@ A6 отклоняет визуал, если:
 Negative Example 001 — Runway task `15ad3fc6-53f6-4b84-86a5-fcf2ec4db957`, отклонён пользователем как “Not relevant content”. Не использовать его как одобренный референс. Ошибка: generic metaphor не раскрыла конкретную мысль источника; ratio дополнительно не соответствовал 4:5.
 
 Целевые сроки A5: одиночный feed/cover — до 90 минут; carousel 4–6 слайдов — до 3 часов; Reel 15–30 секунд — до 4 часов. Время внешнего ожидания/review фиксировать отдельно. Не сокращать смысловые и правовые gates ради срока.
+
+
+## Обязательный полный визуально-технический регламент v2.0
+Принимать визуалы только по [полному playbook A5/A6](../operations/METANODA_VISUAL_TECHNICAL_AGENT_PLAYBOOK_RU.md). Новый scorecard: минимум 15/18, Content relevance = 2 обязательно; технический pass не заменяет смысловую и редакционную приёмку. Проверять exact source locator, mapping, preview, dimensions/ratio, MIME, non-zero bytes, свежий upload_ref, alt-text, provenance, права и handoff.
+
+Публикации остаются на паузе. Наличие принятого asset не означает разрешения на публикацию.
