@@ -246,3 +246,17 @@ A5 existed but its project instruction was only a generic description. It did no
 - A5/A6 инструкции дополнены обязательными ссылками и gates.
 - Публикации остаются на паузе; этот регламент не разрешает публикацию или редактирование существующих материалов.
 - Статус: документы внесены; end-to-end readiness ещё не доказан, пока не пройдены пять практических readiness tests.
+
+
+## 17. Полный визуально-технический регламент v2.0 — 11.11.2026
+
+Создан файл `operations/METANODA_VISUAL_TECHNICAL_AGENT_PLAYBOOK_RU.md` (commit `acfb474beef61d3a10023aef8f8ec278a1a1a079`). Он задаёт роли A0/A1/A2/A4/A5/A6/A9, цели и аудитории, визуальную стратегию, source custody, relevance gate, production pipeline, размеры и форматы, техническую целостность файлов, недельный график, нормативы времени на asset, плановый выпуск, KPI, публикационные ограничения и приёмочные тесты.
+
+### Negative Example 001
+Runway task `15ad3fc6-53f6-4b84-86a5-fcf2ec4db957`; визуал ivory planes / translucent sheets / cobalt elements; user verdict: “Not relevant content”; failure: generic metaphor, no mapping to exact source proposition; technical ratio 3:4 instead of 4:5. Rejected. Must not be used as a positive reference.
+
+### Статус
+- Документ создан и привязан к A5, A6, визуальному гайду и training handoff.
+- Старый scorecard 13/16 заменяется на 15/18 с обязательным Content relevance = 2.
+- Полноценный end-to-end visual test ещё не пройден.
+- Публикации остаются на паузе; никаких постов не выпущено в рамках этого обновления.
