@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: metanoda-agent-team-\${{ github.ref }}
+  group: metanoda-agent-team-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -29,7 +29,7 @@ jobs:
 
       - name: Check Copilot access secret
         env:
-          COPILOT_GITHUB_TOKEN: \${{ secrets.COPILOT_GITHUB_TOKEN }}
+          COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
         run: |
           if [ -z "$COPILOT_GITHUB_TOKEN" ]; then
             echo "::error::Missing repository secret COPILOT_GITHUB_TOKEN. No agent was run."
@@ -51,13 +51,13 @@ jobs:
 
       - name: Run four-stage agent team
         env:
-          COPILOT_GITHUB_TOKEN: \${{ secrets.COPILOT_GITHUB_TOKEN }}
+          COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
         run: python runtime/metanoda_agent_team.py
 
       - name: Save report to GitHub
         if: always()
         env:
-          GH_TOKEN: \${{ github.token }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           if [ -d operations/agent_runs ] && [ -n "$(git status --porcelain operations/agent_runs)" ]; then
             git config user.name "metanoda-agent-runtime"
