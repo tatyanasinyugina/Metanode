@@ -51,6 +51,6 @@
 - Четыре этапа: source auditor → distribution strategist → bilingual editor → independent QA.
 - Источник модели: только публичный сайт `https://tatyana-open-dialogue.gv966ysyr2.chatgpt.site/` и результаты предыдущих этапов.
 - Права модели: только `web_fetch` к разрешённому домену; без доступа к приватным файлам, shell, публикации и внешним сообщениям.
-- Авторизация: встроенный `GITHUB_TOKEN` и `copilot-requests: write`; отдельный PAT/Actions secret не требуется.
+- Авторизация: короткоживущий `GITHUB_TOKEN` + `copilot-requests: write`. GitHub документирует этот вариант и для личных репозиториев; расход Copilot CLI учитывается на Copilot seat владельца. PAT/Actions secret не требуется при наличии Copilot-доступа владельца. Синтаксис CLI ограничен `web_fetch` и доступом только к домену публичного сайта.
 - Выход: `operations/agent_runs/<UTC timestamp>/`.
 - Статус кода: `COMMITTED`. Статус AI-запуска: `PENDING_VERIFICATION` до проверки workflow run и отчёта.
