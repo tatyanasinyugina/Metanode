@@ -31,3 +31,65 @@ jobs:
           python-version: "3.12"
       - name: Run read-only A0 validator
         run: python runtime/a0_orchestrator.py
+
+  outbound-handoff:
+    name: Deliver queued task to external executor
+    needs: bootstrap-validation
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Check protected executor configuration
+        id: config
+        env:
+          EXECUTOR_URL: ${{ secrets.METANODA_EXECUTOR_URL }}
+          EXECUTOR_TOKEN: ${{ secrets.METANODA_EXECUTOR_TOKEN }}
+        run: |
+          if [ -n "$EXECUTOR_URL" ] && [ -n "$EXECUTOR_TOKEN" ]; then
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Send outbound execution envelope
+        if: steps.config.outputs.configured == 'true'
+        env:
+          EXECUTOR_URL: ${{ secrets.METANODA_EXECUTOR_URL }}
+          EXECUTOR_TOKEN: ${{ secrets.METANODA_EXECUTOR_TOKEN }}
+          REPOSITORY: ${{ github.repository }}
+          BRANCH: ${{ github.ref_name }}
+          COMMIT_SHA: ${{ github.sha }}
+          REQUEST_PATH: operations/OUTBOUND_EXECUTION_REQUEST_2026-11-11_01.md
+        run: |
+          python - <<'PY'
+          import json, os
+          payload = {
+              "system": "METANODA",
+              "event": "outbound_execution_request",
+              "repository": os.environ["REPOSITORY"],
+              "branch": os.environ["BRANCH"],
+              "commit_sha": os.environ["COMMIT_SHA"],
+              "request_path": os.environ["REQUEST_PATH"],
+              "idempotency_key": os.environ["COMMIT_SHA"],
+              "callback": {
+                  "repository": os.environ["REPOSITORY"],
+                  "branch": os.environ["BRANCH"],
+                  "receipt_directory": "operations/receipts/"
+              }
+          }
+          with open("outbound-envelope.json", "w") as f:
+              json.dump(payload, f)
+          PY
+          curl --fail-with-body --silent --show-error \
+            --max-time 45 \
+            -X POST "$EXECUTOR_URL" \
+            -H "Authorization: Bearer $EXECUTOR_TOKEN" \
+            -H "Content-Type: application/json" \
+            -H "Idempotency-Key: $COMMIT_SHA" \
+            --data-binary @outbound-envelope.json
+
+      - name: Record adapter unavailable without exposing secrets
+        if: steps.config.outputs.configured != 'true'
+        run: |
+          echo "OUTBOUND_ADAPTER=BLOCKED"
+          echo "REASON=Protected GitHub Actions secrets METANODA_EXECUTOR_URL and/or METANODA_EXECUTOR_TOKEN are not configured."
+          echo "No external request was sent."
