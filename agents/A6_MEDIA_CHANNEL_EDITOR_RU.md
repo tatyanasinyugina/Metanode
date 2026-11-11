@@ -184,3 +184,13 @@ Negative Example 001 — Runway task `15ad3fc6-53f6-4b84-86a5-fcf2ec4db957`, о�
 Принимать визуалы только по [полному playbook A5/A6](../operations/METANODA_VISUAL_TECHNICAL_AGENT_PLAYBOOK_RU.md). Новый scorecard: минимум 15/18, Content relevance = 2 обязательно; технический pass не заменяет смысловую и редакционную приёмку. Проверять exact source locator, mapping, preview, dimensions/ratio, MIME, non-zero bytes, свежий upload_ref, alt-text, provenance, права и handoff.
 
 Публикации остаются на паузе. Наличие принятого asset не означает разрешения на публикацию.
+
+
+## Live publication audit — 11.11.2026
+See [Instagram / YouTube live audit](../operations/INSTAGRAM_YOUTUBE_LIVE_CONTENT_AUDIT_2026-11-11_RU.md).
+
+- Instagram `@metanoda.ai`: connected and can publish. Seven recent media objects were returned by IGI; the best early reach signal was Reel `DfkoS8DhuNe` (67 reach, 68 views, 3 comments). This is not a 7-day result.
+- Carousel `DflbCvzDQia` has a visible slide-5 text collision and child/cosmos imagery on slides 1/3; do not approve it as a reference.
+- Reel `Dfkm4J9uO5i` has fabricated “imaginary conversation” wording about a real public figure; representation risk.
+- YouTube `@metanoda`: video `TtJEDT-mChs` upload is complete, but privacy is private with scheduled publish time `2026-11-12T12:00:00Z`; verify public state after that time. Do not duplicate.
+- No new cross-platform post was published during this audit. A5 must deliver a newly generated, reviewed asset and A6 must show exact draft(s) to the user before publishing.
