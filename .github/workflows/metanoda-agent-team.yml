@@ -1,6 +1,7 @@
 name: METANODA AI Agent Team
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - agents/social-media-execution
