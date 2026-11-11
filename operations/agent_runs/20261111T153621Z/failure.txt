@@ -1,0 +1,8 @@
+01_source_auditor failed (1): Error: Access denied by policy settings (Request ID: A5BC:43DE3:1EF40D0:203658B:6AF48B77)
+
+Your Copilot CLI policy setting may be preventing access. This can happen when:
+  • Your organization has restricted Copilot access
+  • Your Copilot subscription does not include this feature
+  • Required policies have not been enabled by your administrator
+
+To resolve this, visit your Copilot settings: https://github.com/settings/copilot
