@@ -301,3 +301,30 @@ New failures to train against:
 - YouTube Short `TtJEDT-mChs`: upload completed but currently private; scheduled publish time `2026-11-12T12:00:00Z`. Verify after scheduled time; do not duplicate.
 
 A new prompt was staged in Instagram creative picker for a concrete floor → wall → volume schematic, but no generated asset/upload_ref was returned. No new publication occurred. Readiness remains pending/fail until a real reviewed asset passes A5/A6 and exact drafts are approved.
+
+## 14. Training delta — perception-first funnel and format selection (11.11.2026)
+
+### Required A6 behaviour
+Select each post's funnel stage before writing or art direction. The default METANODA test sequence is:
+1. Discovery — Reel 15–25s: concrete first-frame hook, one observation, one meaningful change, one takeaway. Optimize watch time and shares per reach.
+2. Consideration — carousel 5–6 slides: one question, progressive explanation, one useful conclusion. Optimize saves and shares per reach.
+3. Relationship/conversion — Stories/profile/DM: answer one question, establish real context and give one clear next action. Measure replies, profile-to-follow, link clicks or qualified requests.
+
+### Perception requirements
+- Audience is scrolling quickly, may have sound off, uses a small screen and does not know the project's terminology.
+- The first frame must communicate a concrete reason to stop; do not lead with logo, project title, abstract animation or academic definition.
+- One post = one idea. Use progressive disclosure: concrete → explanation → context → action.
+- Curiosity must be resolved, not manipulated. No false urgency, fear, shame, fake proof or fabricated celebrity dialogue.
+- The visual promise must match the source-grounded content. Every meaningful visual element maps to the exact proposition.
+
+### Evidence used
+Buffer 2026 analysis of 45M+ posts: Instagram carousel led median engagement, while Reels have a discovery/reach advantage in separate analysis. Socialinsider analysis of 21.3M posts (Oct 2025–Mar 2026): Reels led comments/shares; carousels led saves. Metricool 2026 Instagram study (24.3M posts): Reels and carousels are the strongest purpose-driven formats. Links: https://buffer.com/resources/data-best-content-format-social-media/ ; https://buffer.com/resources/state-of-social-media-engagement-2026/ ; https://www.socialinsider.io/social-media-benchmarks/instagram-engagement-report ; https://metricool.com/press-release-instagram-study-2026/.
+
+### METANODA account data caveat
+IGI last_30_days_inc snapshot on 11.11.2026 contained 8 records; one Reel had reach 67 and 3 comments, while most other records showed zeros/nulls at query time. The sample is too small and too fresh to declare a winning format. The agent must not claim a format has won based on this snapshot.
+
+### KPI and test design
+Track 24–48h and 7d. Separate discovery (non-follower reach, views, watch time), spread (shares/reach), usefulness (saves/reach), intent (profile visits/reach), and conversion (follows/profile visits, link clicks/profile visits, replies/story reach, qualified actions). Unavailable is not zero. Compare like with like and show sample size. A format wins only for the stage-specific action it is meant to produce.
+
+### Readiness test addition
+A6 must produce a three-step content package from one source proposition: discovery Reel, consideration carousel, conversion Story sequence. For each, provide audience need, hook, visual first-frame, cognitive progression, CTA, expected metric and exact source locator. Reject any package whose visual is attractive but its promise does not match the source.
