@@ -1,0 +1,33 @@
+name: METANODA A0 Runtime
+
+on:
+  push:
+    branches:
+      - agents/social-media-execution
+    paths:
+      - "runtime/**"
+      - "operations/**"
+      - ".github/workflows/metanoda-a0-runtime.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: metanoda-a0-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  bootstrap-validation:
+    name: Validate source and handoff package
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout working branch
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run read-only A0 validator
+        run: python runtime/a0_orchestrator.py
