@@ -416,3 +416,33 @@ Video `TtJEDT-mChs` is a 16-second Short. vidIQ reports the upload completed, bu
 
 ### Current status
 The new source-grounded prompt for a 1080×1350 schematic of horizontal floor → vertical wall → connected volumetric space was staged in the Instagram creative picker, but no new asset or fresh upload_ref was returned. No new post was created or published during the audit. A5 readiness remains FAIL until a reviewed asset passes the scorecard; A6 is PARTIAL until a new approved draft is published and verified.
+
+## 19. Воронка, человеческое восприятие и выбор формата — обновление 11.11.2026
+
+### 19.1 Принцип выбора
+Не выбирать формат по моде или по числу просмотров. Выбирать по следующему психологическому и поведенческому шагу аудитории. Один материал — одна стадия воронки и одно основное действие.
+
+### 19.2 Рабочая архитектура METANODA
+- Discovery: короткий Reel 15–25 секунд. Конкретный hook в первом кадре; узнаваемая ситуация/наблюдение; одно изменение; короткий вывод. KPI: удержание/average watch time, shares per reach, переходы в профиль.
+- Consideration: карусель 5–6 слайдов. Один вопрос; пошаговое раскрытие; один вывод, который стоит сохранить. KPI: saves per reach, shares per reach, содержательные комментарии.
+- Relationship: Stories 3–4 кадра или короткое видео с реальным контекстом. Ответ на один частый вопрос, понятный источник, возможность ответить. KPI: replies, meaningful interactions, return viewers.
+- Conversion: Story/profile path с одним CTA и одной целевой страницей/действием. KPI: profile-to-follow, link clicks, DM-to-qualified action, registrations or requests, если они реально измеряются.
+
+### 19.3 Восприятие ленты
+Учитывать просмотр в движении, часто без звука, на маленьком экране и без знакомства с проектом. Сначала узнаваемое конкретное, затем объяснение, затем более сложный контекст. Избегать академического входа, длинных титров, перегруженных слайдов, неопределённых метафор и обещаний, которые контент не выполняет. Любопытство должно вести к реальному ответу, а не к искусственной задержке.
+
+### 19.4 Внешние данные 2026
+Buffer (45M+ posts; публикация 19.03.2026) показывает, что Instagram carousels лидируют по медианной вовлечённости, тогда как Reels лучше работают для discovery/reach в отдельном анализе. Socialinsider (21,3M posts; Oct 2025–Mar 2026) отмечает преимущество Reels по comments/shares и каруселей по saves. Metricool (24,3M Instagram posts) рекомендует purpose-driven mix: Reels для discovery, carousels для сохранений и повторного взаимодействия. Это агрегированные рыночные данные, не гарантия результата для маленького аккаунта METANODA.
+Источники: https://buffer.com/resources/data-best-content-format-social-media/ ; https://buffer.com/resources/state-of-social-media-engagement-2026/ ; https://www.socialinsider.io/social-media-benchmarks/instagram-engagement-report ; https://metricool.com/press-release-instagram-study-2026/.
+
+### 19.5 Собственный baseline METANODA
+IGI snapshot last_30_days_inc, retrieved 11.11.2026: 8 media records; one recent Reel reported reach 67 and 3 comments; several other records returned zeros or nulls. Due to early publication age and incomplete metrics, sample is insufficient to name a winning format. No conclusion about format superiority is allowed yet.
+
+### 19.6 Measurement protocol
+Capture each post at 24–48h and 7d. Record reach, non-follower reach if available, views, average watch time, shares, saves, profile visits, follows, link clicks and qualified actions. Calculate shares/reach, saves/reach, profile visits/reach, follows/profile visits and clicks/profile visits only when numerator and denominator are available. Mark unavailable distinctly from zero. Compare same-format, same-language, similar-topic posts and report sample size. Do not use likes or reach alone as conversion proof.
+
+### 19.7 Experiment
+Test one topic through three different funnel roles, not three duplicate versions: Reel discovery → carousel consideration → Stories conversion. Keep source proposition constant, but adapt the creative and CTA to each stage. The winner is the format that advances the intended next step, not the one with the largest raw view count. With fewer than three comparable items per format, label conclusions provisional; do not call a winner.
+
+### 19.8 New visual QA question
+Before approval, answer: what does the viewer see first, understand in two seconds, feel curious about, learn next, and do after viewing? The visual must support each step without misrepresenting the source or using manipulative pressure.
