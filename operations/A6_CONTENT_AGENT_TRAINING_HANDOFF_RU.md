@@ -289,3 +289,15 @@ Runway task `15ad3fc6-53f6-4b84-86a5-fcf2ec4db957`: ivory-плоскости / t
 - Никакой художественной полировки при relevance < 2.
 - Тайминг и KPI определены в playbook; публикации остаются на паузе.
 - Этот handoff фиксирует передачу инструкций, а не fine-tuning модели и не автономное развёртывание.
+
+
+## Live visual / publishing audit — 11.11.2026
+Full evidence and current statuses: [INSTAGRAM_YOUTUBE_LIVE_CONTENT_AUDIT_2026-11-11_RU.md](INSTAGRAM_YOUTUBE_LIVE_CONTENT_AUDIT_2026-11-11_RU.md).
+
+New failures to train against:
+- Reel `18138104302642770` / `DfkoS8DhuNe`: generic corridor/light metaphor, not source-specific.
+- Carousel `18132658087748911` / `DflbCvzDQia`: child/cosmos imagery defaults, generic cube, slide-5 text collision.
+- Reel `17992386372118777` / `Dfkm4J9uO5i`: fabricated dialogue framing with a real public figure; never reuse as real dialogue/endorsement.
+- YouTube Short `TtJEDT-mChs`: upload completed but currently private; scheduled publish time `2026-11-12T12:00:00Z`. Verify after scheduled time; do not duplicate.
+
+A new prompt was staged in Instagram creative picker for a concrete floor → wall → volume schematic, but no generated asset/upload_ref was returned. No new publication occurred. Readiness remains pending/fail until a real reviewed asset passes A5/A6 and exact drafts are approved.
