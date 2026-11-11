@@ -257,3 +257,19 @@ A6 is considered **trained for this workflow** only after this test is recorded.
 
 ### Completion criteria
 The visual process is not declared repaired until a concrete preview is reviewed, a valid new upload_ref is confirmed, the file passes technical validation and the A5 scorecard, and A6 receives the full handoff.
+
+
+##  Дополнение 11.11.2026 — visual relevance failure / timed technical handoff
+
+Создан обязательный регламент [agents/METANODA_VISUAL_TECHNICAL_EXECUTION_GUIDE_RU.md](../agents/METANODA_VISUAL_TECHNICAL_EXECUTION_GUIDE_RU.md). Он передаёт A5/A6 полный контур: цели, KPI, авторство/источники, аудиторию и воронку, смысловой gate, арт-дирекцию, форматы, технический контроль, сроки, handoff, readiness tests.
+
+### Новый отрицательный пример
+Runway task `15ad3fc6-53f6-4b84-86a5-fcf2ec4db957`: предметная композиция ivory planes / translucent sheets / cobalt details отклонена пользователем как “Not relevant content”. Ошибка — общая эстетическая метафора без привязки к конкретной proposition источника. Фактический ratio 3:4 также не соответствовал целевому 4:5. Не использовать как положительный референс.
+
+### Исправление процесса
+- До генерации: exact proposition + source locator + meaning map + element-to-source mapping + список запрещённых выводов.
+- Content relevance — отдельный критерий 0–2; для выпуска строго 2.
+- Новый scorecard 9×0–2, проход ≥15/18; critical zero по source fidelity, mobile legibility, format fit, rights блокирует.
+- SLA: feed/cover ≤90 минут; carousel 4–6 слайдов ≤3 часа; Reel 15–30 секунд ≤4 часа; внешнее ожидание фиксировать отдельно.
+- Тесты готовности: relevance rejection, task identity, authorship, upload integrity, ratio mismatch.
+- Статус передачи корпуса и инструкций не означает fine-tuning модели или развёртывание автономного сервиса. End-to-end readiness pending до прохождения тестов на реальных артефактах.
