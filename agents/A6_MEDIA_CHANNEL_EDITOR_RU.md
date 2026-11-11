@@ -161,3 +161,20 @@ Do not use the same central metaphor in consecutive feed posts. Across six feed 
 
 ## Единый визуальный стандарт
 Обязательный полный гайд, включая арт-дирекцию, форматы, производственный конвейер, scorecard, anti-repetition, handoff и визуальный пример: [METANODA_VISUAL_AGENT_GUIDE_RU.md](METANODA_VISUAL_AGENT_GUIDE_RU.md). Этот гайд имеет приоритет над общими описаниями визуального процесса.
+
+
+## Обязательная визуальная приёмка v2.0
+Полный норматив: [METANODA_VISUAL_TECHNICAL_EXECUTION_GUIDE_RU.md](METANODA_VISUAL_TECHNICAL_EXECUTION_GUIDE_RU.md). A6 применяет его независимо от того, кто подготовил визуал.
+
+A6 отклоняет визуал, если:
+- нет exact proposition, source locator и карты «элемент изображения → элемент источника»;
+- связь визуала с содержанием — только общая эстетическая ассоциация;
+- Content relevance не равен 2;
+- scorecard ниже 15/18 из 18;
+- нет финального preview, свежего upload_ref, подтверждённых dimensions/ratio/MIME/non-zero bytes;
+- неизвестны provenance, права или согласия;
+- задача/тема подменена или публикация не разрешена.
+
+Negative Example 001 — Runway task `15ad3fc6-53f6-4b84-86a5-fcf2ec4db957`, отклонён пользователем как “Not relevant content”. Не использовать его как одобренный референс. Ошибка: generic metaphor не раскрыла конкретную мысль источника; ratio дополнительно не соответствовал 4:5.
+
+Целевые сроки A5: одиночный feed/cover — до 90 минут; carousel 4–6 слайдов — до 3 часов; Reel 15–30 секунд — до 4 часов. Время внешнего ожидания/review фиксировать отдельно. Не сокращать смысловые и правовые gates ради срока.
