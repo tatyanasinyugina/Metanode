@@ -161,3 +161,34 @@
 
 ### Ограничение
 Публикация изображения — первый входной тест, не полноценная Reels-кампания. Следующий материал не выпускать автоматически до проверки первых сигналов и подготовки второго формата (короткий explainer Reel с тем же смысловым ядром, но другим hook).
+
+
+## 13. A6 content-agent training and failure transfer — 11.11.2026
+
+**User instruction:** train the content agent on Tatyana Sinyugina's materials in the repository; transfer all tasks, remarks, analysis and results from this conversation; prepare a new result and check Instagram after five minutes.
+
+### Repository handoff
+- Added `operations/A6_CONTENT_AGENT_TRAINING_HANDOFF_RU.md` (commit `4fc2e5c38aaef8d75ea675073e0adfe55f48776c`).
+- Updated `agents/A6_MEDIA_CHANNEL_EDITOR_RU.md` with mandatory source corpus, task-identity gate, source-to-post trace, editorial release gates and explicit limitations of technical validation.
+- The primary source is `Метанода_Татьяны_Синюгиной_RU_EN 2.md`; the GPT adaptation and technical method references are listed separately. Application analyses are not to be misattributed to the monograph.
+- Source corpus and conversation handoff are now present in the working branch; no changes to `main`.
+
+### Newly documented failures
+1. `18094224926280271` / https://www.instagram.com/p/DflZDLwjJzI/ — the assistant generated an interpretation about AI holding a new system of definitions and attributed it to the author's book without verifying the exact passage. Rejected as unsupported attribution.
+2. `17995943901056987` / https://www.instagram.com/p/DflZni7jMeQ/ — the assistant changed the subject to its own execution process when the user asked to restart the METANODA post. Rejected as task-object substitution.
+
+Both records remain published and untouched. Neither is accepted as a corrected author-based post. Technical `validate_only` checks were successful, but they did not verify meaning or task identity; the gate design was insufficient in execution.
+
+### User instructions transferred
+- Manage the connected Instagram channel; avoid asking the user to repeat established details.
+- Keep RU and EN versions, make the entry simple and inviting without distorting the author's meaning.
+- Do not rewrite Tatyana Sinyugina's original text or attribute AI adaptations to her.
+- Do not default every post to children/autism; do not use vulnerable participants as marketing hooks.
+- Research audience formats honestly; record actual sources and distinguish observations from hypotheses.
+- Aim for relevant audience acquisition and meaningful conversion, not posting volume.
+- No paid promotion or spending without explicit permission; no fabricated celebrity conversations or unsupported claims.
+
+### New execution status
+- A6 handoff and source references are recorded in the branch.
+- “Training” here means source corpus + operational instructions + negative examples; no model fine-tuning or autonomous deployment is claimed.
+- Publishing remains paused until a draft passes the new source-to-post readiness test. The five-minute Instagram check is a separate verification task; it must report the actual latest media and not assume a new post exists.
