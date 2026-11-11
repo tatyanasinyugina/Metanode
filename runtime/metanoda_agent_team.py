@@ -37,7 +37,7 @@ Earlier stage context:
 Return a concise structured result. If the source cannot be read, say BLOCKED.
 """
     cmd = ["copilot", "-p", prompt, "-s", "--no-ask-user",
-           "--available-tools=url", "--allow-tool=url", f"--allow-url=https://{ALLOWED_HOST}"]
+           "--available-tools=web_fetch", "--allow-tool=url", f"--allow-url=https://{ALLOWED_HOST}"]
     result = subprocess.run(cmd, cwd=str(workdir), text=True, capture_output=True,
                             timeout=600, check=False)
     if result.returncode:
