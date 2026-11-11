@@ -87,3 +87,7 @@ The next visual must show the specific progression **horizontal interactive floo
 **A6 publishing readiness: PARTIAL.** Instagram and YouTube accounts are connected. Instagram has recent live posts; YouTube upload is completed but still private until its scheduled publish time. There is no verified new cross-platform publication from this audit.
 
 **Agent training status:** instructions and negative examples are documented. This audit does not prove model fine-tuning or autonomous operation. A full end-to-end pass requires a new approved asset, valid platform drafts, and verified publication links.
+
+
+### Prompt correction — 11.11.2026
+The first staged prompt was superseded before asset generation because its wording could imply that the volumetric stage is merely the physical union of floor and wall projections. This would contradict §11.3, which explicitly says volumetric developing reality is not the result of joining two spaces; it arises through a qualitative change in the subject's organization of cognition. The currently open creative-picker prompt corrects this: stage 3 must depict a qualitatively new organization of relations/activity, not simply a floor-wall corner projection. No asset has yet been generated from either prompt.
