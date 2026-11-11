@@ -13,7 +13,9 @@
 | vidIQ / Social accounts | social account list | Instagram и YouTube: active; canPublish=true | Подготовка черновика и публикация — разные операции; публикация только после отдельного разрешения |
 | Runway | whoami | AUTHENTICATED; workspace найден | Доступные image models перечислены провайдером; video models в проверке не возвращены |
 | HeyGen | get current user | Подключение отвечает | Функциональные права на создание/публикацию отдельно не подтверждены |
-| Higgsfield | get profile | AUTHENTICATED | Наличие аккаунта не означает разрешение на внешнюю публикацию |
+| Higgsfield | get profile + models_list(type=video) | AUTHENTICATED; Seedance 1.5 Pro, Seedance 2.0, Seedance 2.0 Mini и Seedance 2.5 доступны в каталоге | Генерация видео расходует ресурсы/кредиты; отдельная генерация не запускалась |
+| ByteDance Seedance via Higgsfield | model catalog | Seedance 2.5 подтверждён; режимы t2v, omni_reference, video_edit, video_extension; 4–30 сек; 480p/720p/1080p | Вызывается через подключённый Higgsfield generate_video; перед каждой платной генерацией требуется оценка стоимости и отдельное подтверждение пользователя |
+| ByteDance Seedance via vidIQ | tool schema | Seedance 2 и Seedance 2 Fast доступны как модели vidiq_generate_video | Асинхронная генерация платная по кредитам; использовать только после предварительного показа цены и явного подтверждения |
 | Lovable | get me | Подключение отвечает; 1 workspace | Не включать как обязательную зависимость; учитывать ранее зафиксированное ограничение по кредитам до повторной проверки |
 
 ## Не подтверждено в этой проверке
