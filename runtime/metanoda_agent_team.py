@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""METANODA agent team: public-source research -> strategy -> draft -> independent QA.
+"""METANODA agent team: public-source research -> strategy -> draft -> dispatch plan -> independent QA.
 The model receives only a public URL and earlier stage outputs. It has no repository
-read/write, shell, or publishing tools. Private repository files are never passed in.
+read/write, shell, external connector, or publishing tools. Private repository files are never passed in.
 """
 from __future__ import annotations
 import json, os, subprocess, sys, tempfile
@@ -20,8 +20,10 @@ AGENTS = [
      "Using only the evidence ledger, propose one practical organic distribution action: audience, channel fit, objective, format, measurable success signal. No paid ads, spam, mass messaging, follow/unfollow, fake engagement, follower guarantees, or invented product claims."),
     ("03_editor", "BILINGUAL EDITOR",
      "Prepare one concise draft in Russian and English based only on the evidence and strategy. Preserve authorship: METANODA is the author system/term of Tatyana Sinyugina. Do not attribute AI interpretation or research coordination to her. Add source link. Do not mention children, families, case details, personal data, or unpublished research. Mark DRAFT — NOT PUBLISHED."),
-    ("04_independent_qa", "INDEPENDENT QUALITY REVIEWER",
-     "Independently audit the draft against the evidence and strategy: factual support, authorship, privacy, RU/EN consistency, platform safety. Start with exactly PASS or FAIL and list findings. Unsupported claims, authorship confusion, private/child data, or misleading promises mean FAIL. Do not silently rewrite."),
+    ("04_execution_router", "EXTERNAL EXECUTION ROUTER",
+     "Convert the strategy and bilingual draft into a precise machine-readable execution ticket. Include request_id, objective, recommended channel, adapter_family (Supermetrics or vidIQ only when justified), proposed_action (draft/validate only; never publish), required_inputs, account_id_source=FRESH_PROVIDER_READ_REQUIRED, approval_required=true, execution_status=NOT_EXECUTED, verification_requirements, and blockers. Never invent account IDs, media IDs, URLs, permissions, or provider receipts. If a live account lookup or connector action is needed, mark it as a prerequisite; do not claim it happened. Do not publish, schedule, contact anyone, or spend money."),
+    ("05_independent_qa", "INDEPENDENT QUALITY REVIEWER",
+     "Independently audit the evidence, draft, and execution ticket: factual support, authorship, privacy, RU/EN consistency, platform safety, correct adapter boundaries, no invented identifiers, approval gate, and NOT_EXECUTED status. Start with exactly PASS or FAIL and list findings. Unsupported claims, authorship confusion, private/child data, misleading promises, invented IDs, or implied publication authorization mean FAIL. Do not silently rewrite."),
 ]
 
 def run_agent(name, role, instruction, context, workdir):
@@ -66,7 +68,7 @@ def main():
                 outputs[filename] = output
                 (run_dir / f"{filename}.md").write_text(output + "\n", encoding="utf-8")
                 context += f"\n\n## {role}\n{output}\n"
-        qa = outputs["04_independent_qa"].lstrip().upper()
+        qa = outputs["05_independent_qa"].lstrip().upper()
         passed = qa.startswith("PASS")
         summary = {
             "system": "METANODA_AGENT_TEAM", "run_utc": stamp,
@@ -74,6 +76,7 @@ def main():
             "qa_status": "PASS" if passed else "FAIL",
             "publication_status": "NOT_PUBLISHED",
             "publication_authorization": "NOT_GRANTED",
+            "execution_ticket_status": "PREPARED_NOT_EXECUTED",
             "private_repository_files_sent_to_model": False,
             "model_tools": ["url"]
         }
