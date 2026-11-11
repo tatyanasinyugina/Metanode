@@ -1,0 +1,5 @@
+- **Action:** Publish one Russian-language post on Tatyana’s own social channel, aimed at people interested in self-guided reflection and human–AI collaboration.
+- **Channel fit:** The page describes her work in those areas and says the “Main Project” brochure is a free Russian-language PDF for self-guided work. **Hypothesis:** an informative post on her own channel is a relevant, low-pressure way to reach that audience.
+- **Objective and format:** Introduce the brochure in a short post with a clear link; describe it only as the page does, without promising outcomes.
+- **Success signal:** Track link clicks and PDF downloads during the first week.
+- **Evidence:** [Source homepage](https://tatyana-open-dialogue.gv966ysyr2.chatgpt.site/) — claims above are reported by the page, not independently verified.
