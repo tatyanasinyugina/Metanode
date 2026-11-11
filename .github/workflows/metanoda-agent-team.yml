@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: write
+  copilot-requests: write
 
 concurrency:
   group: metanoda-agent-team-${{ github.ref }}
