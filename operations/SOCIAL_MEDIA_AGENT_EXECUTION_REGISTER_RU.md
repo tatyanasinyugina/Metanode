@@ -234,3 +234,15 @@ A5 existed but its project instruction was only a generic description. It did no
 - The picker result confirms the review workflow opened and exposes the saved library. It does not yet confirm a newly generated image or fresh upload_ref. Status: `preview_pending`.
 - No publishing action was taken; no existing post was changed or removed.
 - Full repair remains pending until a concrete image is reviewed and passes technical and visual QA.
+
+
+## 17. Визуально-технический регламент A5/A6 v2.0 — 11.11.2026
+
+- Создан `agents/METANODA_VISUAL_TECHNICAL_EXECUTION_GUIDE_RU.md` — единый полный регламент с целями, KPI, временными SLA, source/rights custody, relevance gate, аудиториями и воронкой, арт-дирекцией, техническими форматами, scorecard, A5→A6 handoff и readiness tests.
+- Новый обязательный смысловой порядок: exact proposition → source locator → meaning map → element-to-source mapping → inference boundary → audience reason → visual concept → generation → QA.
+- Зафиксирован Negative Example 001: Runway task `15ad3fc6-53f6-4b84-86a5-fcf2ec4db957`; пользователь отклонил результат: “Not relevant content”. Ivory planes / translucent sheets / cobalt composition — общая метафора, не раскрывающая конкретное положение. Не использовать как положительный референс. Дополнительный дефект — 3:4 вместо 4:5.
+- Scorecard расширен до 9 критериев / 18 баллов; проход ≥15/18; Content relevance = 2 обязательно. Ноль по source fidelity, mobile legibility, format fit или rights — стоп.
+- Временные нормативы: feed/cover ≤90 минут; carousel 4–6 слайдов ≤3 часа; Reel 15–30 секунд ≤4 часа; external wait/review отдельно.
+- A5/A6 инструкции дополнены обязательными ссылками и gates.
+- Публикации остаются на паузе; этот регламент не разрешает публикацию или редактирование существующих материалов.
+- Статус: документы внесены; end-to-end readiness ещё не доказан, пока не пройдены пять практических readiness tests.
