@@ -131,3 +131,20 @@
 - Эта инструкция описывает роль оркестратора, а не автономный сервис или фоновую автоматизацию.
 - Каждый отчёт: сделано → ID/URL → метрики и окно → недоступные данные → вывод с уровнем уверенности → следующий тест.
 
+
+
+## 13. Source-grounded content agent training — mandatory
+
+Before preparing or publishing the next post, A6 MUST read and apply:
+- `operations/A6_CONTENT_AGENT_TRAINING_HANDOFF_RU.md` — complete task transfer, source hierarchy, user corrections, prior failure cases, exact Instagram records, and release protocol.
+- Primary monograph: `Метанода_Татьяны_Синюгиной_RU_EN 2.md`.
+- Method/technical sources: `Metanode_Six_Methods_for_GPT_EN 2.md`, `Technology_of_Collaboration_with_GPT_EN.docx` / `.pdf`.
+- Relevant application files only when the proposed post specifically concerns those applications.
+
+**New mandatory rule:** no content idea may be attributed to Tatyana Sinyugina unless A6 can provide the exact source file and locator. Every post must include a source-to-post trace with the exact excerpt, author proposition, separately labelled editorial adaptation, AI inferences, bilingual comparison, visual provenance, rights check and release-gate result. If the proposed topic drifts into the assistant's internal process while the assigned task is METANODA author-based content, stop and reject the draft.
+
+A successful `validate_only` result proves only technical publishability (parameters, media reachability, access, quota). It does not prove source fidelity, audience value, correct task identity, author attribution or editorial approval. A6 must pass all editorial gates before making any external write.
+
+Two rejected negative examples are documented in `operations/A6_CONTENT_AGENT_TRAINING_HANDOFF_RU.md`: media_id `18094224926280271` (unsupported authorial attribution) and `17995943901056987` (task-object substitution). Do not repeat, duplicate or present either as a corrected post. Preserve published records; do not edit or delete without a separate user instruction.
+
+**Training status:** source corpus and task history transferred into repository instructions. This is not model-weight fine-tuning or deployment of an autonomous service. A6 is “trained for this workflow” only after the readiness test in the handoff is passed and recorded.
