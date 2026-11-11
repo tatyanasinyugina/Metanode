@@ -63,3 +63,17 @@
 Исполнять [полный визуально-технический playbook](../operations/METANODA_VISUAL_TECHNICAL_AGENT_PLAYBOOK_RU.md). Он устанавливает обязательную последовательность source → meaning map → visual mapping → 3 concepts → relevance review → production → technical QA → handoff, нормативы времени, недельный график, KPI, права, приватность и тесты.
 
 **Новый блокирующий критерий:** Content relevance = 2. Не создавать и не полировать визуал, если его связь с точной мыслью источника объясняется только общей ассоциацией. Отрицательный пример 001 — Runway task `15ad3fc6-53f6-4b84-86a5-fcf2ec4db957`, отклонён пользователем: “Not relevant content”; результат 3:4 вместо 4:5. Не повторять.
+
+
+## Live output audit — 11.11.2026
+Read [Instagram / YouTube live audit](../operations/INSTAGRAM_YOUTUBE_LIVE_CONTENT_AUDIT_2026-11-11_RU.md) before using previous content as a reference.
+
+Negative Example 002: Reel `18138104302642770` / `DfkoS8DhuNe`, generic dark corridor / distant light; no element-to-source mapping. Early metrics (67 reach, 68 views, 3 comments) do not make it a positive visual reference.
+
+Negative Example 003: carousel `18132658087748911` / `DflbCvzDQia`; default child/cosmos imagery, generic glowing cube, and slide 5 text collision that obscures the source text. Reject as a positive reference.
+
+Representation risk: Reel `17992386372118777` / `Dfkm4J9uO5i` claims an imaginary conversation with Elon Musk. Never imply real dialogue or endorsement; do not reuse.
+
+The next valid visual must show the source-specific spatial transition: interactive horizontal floor → interactive vertical wall → connected volumetric environment. No default child imagery, cosmos, corridor, portal or generic sculpture. Label AI visuals as schematic illustrations, not evidence of an actual installation.
+
+The 11 Nov creative-picker prompt was staged but no new asset/upload_ref was returned. Therefore no generation or handoff completion may be claimed.
