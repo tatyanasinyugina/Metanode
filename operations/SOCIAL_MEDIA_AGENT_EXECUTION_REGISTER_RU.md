@@ -272,3 +272,51 @@ Created [live audit report](INSTAGRAM_YOUTUBE_LIVE_CONTENT_AUDIT_2026-11-11_RU.m
 - YouTube `TtJEDT-mChs`: upload completed, still private, scheduled for `2026-11-12T12:00:00Z`; verify public state after schedule.
 - Source-grounded floor → wall → volume prompt staged in creative picker; no new asset/upload_ref returned.
 - No new Instagram or YouTube publication occurred during this audit. A5 readiness FAIL; A6 PARTIAL. Do not claim end-to-end success.
+
+
+## 17. Daily audit — 11.11.2026, 18:45–18:50 Asia/Omsk
+
+### 17.1 Connected accounts — live check before any publishing decision
+- Instagram vidIQ OAuth: `@metanoda.ai`, platformAccountId `29113336628328872`, connectionActive=true, canPublish=true; scopes include content publish and manage insights.
+- Instagram Supermetrics IGI: account_id `17841470456952988`; publishing and insights returned successfully.
+- YouTube owner channel: `METANODA`, `@metanoda`, channelId/platformAccountId `UCgcXPGT0dWvqjbdE3wtNAHQ`, connectionActive=true, canPublish=true. This is the exact owner channel used for the YouTube upload.
+- No LinkedIn connection was available in the Supermetrics status listing; no LinkedIn operation was attempted.
+
+### 17.2 Instagram — live metrics, latest media, comments and schedule
+Owner-insights query window: 2026-10-12 through 2026-11-11.
+- Account snapshot: 1 follower, 7 following, 19 media objects.
+- Account metrics returned: 480 views, 371 accounts reached, 4 profile visits, 0 website-link taps, 0 profile-link taps, 4 accounts engaged.
+- Follower-count time series for 2026-11-04 through 2026-11-11 returned no rows; follower growth for that interval is therefore unavailable, not assumed to be zero.
+- Highest recent Reel snapshot: `Dflj_MBuM1a` — 148 views, reach 131, 2 likes, 0 comments, 0 shares, 0 saves; URL https://www.instagram.com/reel/Dflj_MBuM1a/.
+- Second recent Reel: `Dflr4EAMmht` — 125 views, reach 112, 3 likes, 1 comment, 0 shares, 0 saves; URL https://www.instagram.com/reel/Dflr4EAMmht/.
+- The newest carousel `DfmOcHKCKoo` and newest Reel `DfmGTCxuIRK` each returned 0 lifetime interactions/views at this early snapshot. Other recent items mostly returned 0–5 views. Do not treat a fresh zero as a mature performance verdict.
+- Comment checks on media IDs `18103572338373190`, `18138104302642770`, and `18132945604744782` returned comments authored by `@metanoda.ai` only. No audience-authored comment requiring a reply was found in these checked threads; no reply was sent.
+- Instagram scheduled item `7844` is confirmed **published**, not scheduled: published 2026-11-11 08:11:02 Asia/Omsk; media_id `18077227664766700`; permalink https://www.instagram.com/p/DflYJ6tDD21/.
+- A separate scheduled carousel `8165`, preview title “METANODA ИЗНУТРИ — ЭПИЗОД 3: КАК УСТРОЕНА РАБОТА АГЕНТОВ”, was due 2026-11-11 19:00 Asia/Omsk. It was **cancelled and cancellation re-verified** before release because the available preview pointed to internal agent-process content and no source-to-post trace was present; this fails A6's current task-identity/source gate. No published post was deleted.
+- No future Instagram post remains scheduled in the status listing after cancellation.
+- Profile audit: current bio contains the awkward phrase “chatGPT studying Metanoda is the author of this account”; website points to the main METANODA site. The available Instagram publishing API does not expose a bio/name/link editing action, so no profile edit is claimed or made.
+
+### 17.3 YouTube — owner-channel and publication state
+- Connected owner channel verified: `UCgcXPGT0dWvqjbdE3wtNAHQ`, title METANODA, handle `@metanoda`, current channel-list snapshot 0 subscribers, 0 lifetime views, 1 public video.
+- Public long-form video: `dRWndSllAg4`, title shown as “Эволюция нейросети и адаптация: в чём разница…”, privacy=public, 6 views, 0 likes, 0 comments; URL https://www.youtube.com/watch?v=dRWndSllAg4.
+- Short `TtJEDT-mChs`: upload/publication job is completed, but video privacy remains **private** with scheduledPublishAt `2026-11-12T12:00:00Z` = 2026-11-12 18:00 Asia/Omsk. Video metadata returned 7 views, but these are not public-audience views while privacy is private. Do not duplicate this Short. Verify public state after the scheduled time.
+- YouTube Studio analytics query 2026-10-12 through 2026-11-11 returned one row of zeros for views, engagedViews, estimatedMinutesWatched, subscribersGained, likes and comments. This conflicts with the video-list snapshot showing 6 views on the public long-form upload and 7 views on the private Short. Record as an API/reporting discrepancy; do not represent it as proof that no views occurred.
+- No additional YouTube upload or draft was created during this run.
+
+### 17.4 Reference review — Teyhan Koldoshev
+- Public Instagram profile located: https://www.instagram.com/teyhan.koldoshov/. vidIQ profile snapshot describes the account as an AI content-factory / AI-avatar / AI-creative expert and displays 227.9K followers, 1.5K posts, and a self-reported “0→180K in one year” claim.
+- SocialBlade's public snapshot showed 225,095 followers, average 118.31 likes, 25.5 comments and a reported 0.06 engagement rate; source: https://socialblade.com/instagram/user/teyhan.koldoshov/realtime. The snapshots differ by date/provider; the creator's growth claim is not independently verified.
+- The public Reel-list inspection was blocked by vidIQ credit availability and Instagram's public page could not be fetched through the web reader. No individual Reel hook/retention breakdown is claimed. This is a specific research limitation, not a finding about the creator's content quality.
+- Transferable hypothesis for METANODA: study the repeatable production system, consistent series packaging and AI-assisted creative workflow; do not copy the creator's texts or use an AI avatar/voice/likeness of Tatyana Sinyugina. The SocialBlade engagement snapshot is a warning not to equate follower scale with loyal audience.
+
+### 17.5 A6 source-to-post test and next asset
+- Current primary source reopened on branch `agents/social-media-execution`: `Метанода_Татьяны_Синюгиной_RU_EN 2.md`, blob SHA `60777a27cf79051f911766e260aa4fe54704ffae`, opening passage.
+- Exact Russian source text checked: “Что есть развитие?”; “Развитие — это способ существования человека.”; “Развитие — это способ существования Космоса.”; and the opening statement that development is a fundamental mode of existence of the human being and the Cosmos.
+- Existing draft `operations/A6_POST_DRAFT_001_DEVELOPMENT_RU_EN.md` remains the current next content item. Its source, meaning, attribution, task-identity and bilingual gates pass. Hook “Что, если развитие — не этап, который однажды заканчивается?” is explicitly editorial adaptation, not a Tatyana quotation. The English wording is explicitly an editorial translation.
+- Media gate remains **BLOCKED**: the previously selected upload_ref `upl_UgaGZFG7URpqQVYNHYtI2A` was rejected as missing/0 bytes. The Creative Picker was already opened for preview; do not reopen or bypass it. No fresh asset/upload_ref has been provided in this run, so no image or Reel was created, scheduled or published.
+- A6 status remains: source-grounded draft validated; end-to-end readiness and publication not yet passed. This is repository instruction/source transfer, not model-weight fine-tuning or autonomous agent deployment.
+
+### 17.6 Funnel and next measurable step
+- Confirmed Instagram funnel snapshot: 371 reached → 4 profile visits → 0 website taps; 1 current follower; 4 accounts engaged. The sample is small and the follower time-series was unavailable, so no reach-to-follow conversion is asserted.
+- No website analytics, product checkout or sales confirmation was available in this run; no sales are claimed.
+- Next measurable step: obtain a fresh, reviewed media upload for the existing A6 development draft; verify non-zero asset and source/visual gates; then schedule the Instagram placement. On YouTube, verify that `TtJEDT-mChs` becomes public at 2026-11-12 18:00 Asia/Omsk and record its public permalink/status. Do not duplicate either existing publication.
