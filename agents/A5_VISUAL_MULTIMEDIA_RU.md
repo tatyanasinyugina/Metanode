@@ -77,3 +77,34 @@ Representation risk: Reel `17992386372118777` / `Dfkm4J9uO5i` claims an imaginar
 The next valid visual must show the source-specific spatial transition: interactive horizontal floor → interactive vertical wall → connected volumetric environment. No default child imagery, cosmos, corridor, portal or generic sculpture. Label AI visuals as schematic illustrations, not evidence of an actual installation.
 
 The 11 Nov creative-picker prompt was staged but no new asset/upload_ref was returned. Therefore no generation or handoff completion may be claimed.
+
+## Дополнение A5 v2.2 — визуал под восприятие и этап воронки (11.11.2026)
+
+Перед разработкой изображения/видео A5 получает от A6 stage_in_funnel: discovery, consideration, relationship или conversion. Один визуал не должен пытаться одновременно остановить ленту, объяснить сложную теорию, доказать авторитет и продать следующий шаг.
+
+### Для discovery (Reel)
+- Первый кадр за 1 секунду предъявляет конкретную ситуацию/объект/изменение, а не абстрактный брендовый фон.
+- Один визуальный вопрос или контраст; один главный фокус; смысл читается без звука.
+- Динамика должна отражать развитие мысли: наблюдение → изменение → вывод. Не использовать бессмысленные перелёты камеры и случайные эффекты.
+- Hook визуально подтверждает то, что обещает текст. Не создавать clickbait.
+
+### Для consideration (карусель)
+- Первый слайд задаёт узнаваемый вопрос или проблему.
+- Слайды 2–4 раскрывают по одному шагу/отношению; один слайд — одна мысль.
+- Предпоследний/последний слайд фиксирует вывод и следующий шаг.
+- Сохранять единый визуальный язык, но менять композицию по функции слайда; избегать текстовых наложений и перегруженности.
+
+### Для relationship / conversion (Stories, профиль, DM)
+- Визуально показывать реальный источник, автора, процесс или материал только при подтверждённом происхождении и разрешении.
+- Один кадр — один следующий шаг; CTA должен быть видимым, конкретным и выполнимым.
+- Не имитировать социальное доказательство, отзывы, присутствие автора или партнёрство.
+
+### Обязательный perception QA
+1. Thumb-stop: что зритель замечает первым за 1 секунду?
+2. Comprehension: что он может правильно пересказать после 2 секунд?
+3. Promise match: соответствует ли визуал обещанию hook и реальному содержанию?
+4. Cognitive load: один ли главный тезис, нет ли лишних деталей?
+5. Emotional tone: нет ли запугивания, стыда, давления или манипулятивного curiosity gap?
+6. Action clarity: понятно ли, что сделать дальше и зачем?
+7. Mobile/silent test: читается ли на телефоне и без звука?
+Любой провал по promise match, source fidelity, rights или mobile legibility блокирует передачу A6. Дополнительно к визуальному scorecard записывать funnel stage и ожидаемое поведение зрителя.
