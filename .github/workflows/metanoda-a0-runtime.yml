@@ -15,8 +15,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: metanoda-a0-${{ github.ref }}
-  cancel-in-progress: true
+  group: metanoda-branch-write-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   bootstrap-validation:
