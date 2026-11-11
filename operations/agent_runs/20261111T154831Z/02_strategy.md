@@ -1,0 +1,5 @@
+- **Audience (hypothesis):** People interested in reflection, human development, or human–AI collaboration, based on the page’s stated themes.
+- **Channel and format:** One organic LinkedIn post with a short carousel presenting Metanoda as Tatyana’s philosophical model, plus an invitation to explore the page’s self-guided brochure. Frame the ideas as her perspective, not proven outcomes.
+- **Objective:** Bring relevant readers to the page.
+- **Success signal:** Tagged-link visits from the post; compare with the post’s impressions to assess click-through.
+- **Source:** [Tatyana’s page](https://tatyana-open-dialogue.gv966ysyr2.chatgpt.site/)

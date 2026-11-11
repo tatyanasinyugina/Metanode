@@ -1,0 +1,18 @@
+{
+  "system": "METANODA_AGENT_TEAM",
+  "run_utc": "20261111T154831Z",
+  "source": "https://tatyana-open-dialogue.gv966ysyr2.chatgpt.site/",
+  "agents_completed": [
+    "01_source_auditor",
+    "02_strategy",
+    "03_editor",
+    "04_independent_qa"
+  ],
+  "qa_status": "PASS",
+  "publication_status": "NOT_PUBLISHED",
+  "publication_authorization": "NOT_GRANTED",
+  "private_repository_files_sent_to_model": false,
+  "model_tools": [
+    "url"
+  ]
+}
