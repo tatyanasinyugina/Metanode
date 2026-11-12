@@ -34,7 +34,7 @@ The latest prior GitHub Actions receipt `operations/receipts/43202901205_outboun
 - Supermetrics status query (`state=all`) returned four previously published items from 11 Nov and scheduled item `8165` cancelled. No future scheduled post was returned.
 - Publishing quota snapshot: 0/100 used in the rolling 24-hour window; 100 remaining is an upper bound, not a guarantee.
 - Current Supermetrics asset lookup returned empty image/video result sets. No fresh, approved media asset or upload_ref was available.
-- Instagram owner-insights account snapshot, 2026-10-13 through 2026-11-12: 522 views, 386 accounts reached, 4 accounts engaged, 0 website link taps, 0 profile-link taps. The account object reports 1 follower, 7 following and 20 media objects. The follower time-series query returned no rows; follower growth for the interval is unavailable, not assumed to be zero.
+- Instagram owner-insights account snapshot, 2026-10-13 through 2026-11-12: 522 views, 386 accounts reached, 4 accounts engaged, 0 website link taps, 0 profile-link taps. The account object reports 1 follower, 7 following and 20 media objects. The follower time-series query returned no rows; follower growth for the interval is unavailable, not assumed to be zero. The provider's current count of 1 differs from the user's previously reported visible count of 0; this UI/API discrepancy is unresolved.
 - Latest short-form signals (lifetime metrics at query time):
   - Reel `DfkoS8DhuNe`, 15 sec: 141 views, 5 comments, 1 share, 0 saves, average watch 3.632 sec / 24.21%, skip rate 85.2%.
   - Reel `Dflj_MBuM1a`, 16 sec: 148 views, 2 likes, 0 comments/shares/saves, average watch 4.514 sec / 28.21%, skip rate 65.4%.
