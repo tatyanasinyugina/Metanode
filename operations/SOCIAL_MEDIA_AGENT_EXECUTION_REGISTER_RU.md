@@ -320,3 +320,45 @@ Owner-insights query window: 2026-10-12 through 2026-11-11.
 - Confirmed Instagram funnel snapshot: 371 reached → 4 profile visits → 0 website taps; 1 current follower; 4 accounts engaged. The sample is small and the follower time-series was unavailable, so no reach-to-follow conversion is asserted.
 - No website analytics, product checkout or sales confirmation was available in this run; no sales are claimed.
 - Next measurable step: obtain a fresh, reviewed media upload for the existing A6 development draft; verify non-zero asset and source/visual gates; then schedule the Instagram placement. On YouTube, verify that `TtJEDT-mChs` becomes public at 2026-11-12 18:00 Asia/Omsk and record its public permalink/status. Do not duplicate either existing publication.
+
+
+## 18. Daily cross-layer execution — 12.11.2026, 18:08 Asia/Omsk
+
+**Run report:** [RUNTIME_RUN_2026-11-12_1808_OMSK.md](RUNTIME_RUN_2026-11-12_1808_OMSK.md)  
+**New source-grounded package:** [A6_CONTENT_PACKAGE_002_HUMAN_IN_AI_RU_EN.md](A6_CONTENT_PACKAGE_002_HUMAN_IN_AI_RU_EN.md)  
+**Overall status:** `PARTIAL` — source read, live platform reads, public research, package creation and GitHub return verified; no new social publication.
+
+### Source and version
+- Branch head at run start: `76d89cbf01fbcc61279ea6d58237d2b8fe138042`.
+- Primary monograph SHA: `60777a27cf79051f911766e260aa4fe54704ffae`; Chapter 9, lines 2204–2245, especially lines 2224, 2226 and 2240.
+- Supporting GPT-method source SHA: `0f287ed2ec2bd387a3937713264eb0da0f9a86b5`, line 62; method/context changes are not evidence of model-weight changes.
+
+### External checks
+- Instagram IGI / `@metanoda.ai`: authenticated; status query returned no future scheduled posts; quota snapshot 0/100 used; asset endpoint returned empty image/video results.
+- Instagram owner insights, 13 Oct–12 Nov: 522 views, 386 reach, 4 accounts engaged, 0 website taps, 0 profile-link taps; account object reports 1 follower, 7 following, 20 media. Follower time-series returned no rows.
+- Recent 15–20 sec Reels returned 126–148 views; average watched percentage 19.73%–28.21%; one of the checked Reels had 1 share. Longer recent Reels had materially lower watched percentages in the returned sample. Treat as an early account-specific signal.
+- Checked comment threads contained only account-authored comments; no audience reply was sent.
+- YouTube owner channel `UCgcXPGT0dWvqjbdE3wtNAHQ` / `@metanoda`: active; 0 subscribers, 11 views, 2 public videos. Previously scheduled Short `TtJEDT-mChs` is now publicly reachable: https://www.youtube.com/shorts/TtJEDT-mChs. No new YouTube upload.
+
+### Research
+Public account snapshot on 12 Nov: [@claudeai](https://www.instagram.com/claudeai/), [@googledeepmind](https://www.instagram.com/googledeepmind/), [@emonthebrain](https://www.instagram.com/emonthebrain/), [@waterscenterst](https://www.instagram.com/waterscenterst/) and [@necsi_inc](https://www.instagram.com/necsi_inc/). Profile positioning and visible Reels/carousel grids were inspected; dates were not exposed for every grid tile. Additional dated interview example and market references are recorded in the run report.
+
+### Role-stage results
+- A0 PASS — task object and routing.
+- A1 PASS — current author source, locator, rights/privacy boundary.
+- A2 PASS — human-centred AI interaction proposition mapped to exact lines.
+- A4 PASS for text — no unsupported claims or task-object substitution.
+- A5 BLOCKED — concept only; no reviewed preview, fresh upload_ref or verified file.
+- A6 PARTIAL — platform status and metrics read; no publication/schedule write.
+- A9 PASS — RU source retained; EN explicitly marked editorial translation.
+
+### Execution decision
+- Created the three-stage discovery Reel → consideration carousel → conversion Story package in RU/EN.
+- No Instagram or YouTube post was created or scheduled. No existing media was edited/deleted.
+- Latest Instagram Reel `18130850152857476` has a caption that appears to imply a conversation with Elon Musk; flagged for representation review, left untouched.
+- No paid spend, follower manipulation, mass messaging or credit-consuming media generation.
+
+### Blockers / next step
+A5 needs a final source-mapped visual preview, scorecard ≥15/18 with Content relevance = 2, verified non-zero file integrity and a fresh upload_ref. Until that passes, the new package remains a draft. GitHub Actions outbound endpoint remains blocked because protected executor configuration is absent.
+
+**Readback:** run report, content package and updated register were fetched again after writing. No changes to `main` or the monograph.
