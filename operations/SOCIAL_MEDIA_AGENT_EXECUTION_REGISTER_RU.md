@@ -362,3 +362,6 @@ Public account snapshot on 12 Nov: [@claudeai](https://www.instagram.com/claudea
 A5 needs a final source-mapped visual preview, scorecard ≥15/18 with Content relevance = 2, verified non-zero file integrity and a fresh upload_ref. Until that passes, the new package remains a draft. GitHub Actions outbound endpoint remains blocked because protected executor configuration is absent.
 
 **Readback:** run report, content package and updated register were fetched again after writing. No changes to `main` or the monograph.
+
+
+**Follower-count data note:** vidIQ owner-insights returned 1 current follower, while the user previously reported seeing 0 in the Instagram UI. The follower time-series returned no rows. Treat the current count as a provider snapshot and the UI/API discrepancy as unresolved; do not claim measured follower growth.
