@@ -23,4 +23,4 @@ Technology of collaboration with GPT file added
 Technology of collaboration with GPT pdf  https://github.com/lilitsharoian/Metanode/blob/main/Technology_of_Collaboration_with_GPT_EN.pdf 
 Metanode digital Twin Transfer Analysis file added 
 Metanode digital Twin Transfer Analysis md added https://github.com/lilitsharoian/Metanode/blob/main/Metanoda_Digital_Twin_Transfer_Analysis_EN%202.md
-
+Metanode Monograph is published to zenodo https://zenodo.org/records/24437259?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjMwNmJhMmY2LTAyYzctNGJhYi1hNzY3LTc0ZmQ5OTVkMDViOSIsImRhdGEiOnt9LCJyYW5kb20iOiIzN2I4MzBiNDc4NmJhNWFmNzVlNjdkY2RiMzFhNzYxYyJ9.klHfEx04LeCBuxk6axkoylARv7XSmqYD9h9wGFjnpnXyfWvn12YCom6_RFHfMhprf7dLVQ6xJccB6ir4lI1n1A
