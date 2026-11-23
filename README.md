@@ -44,6 +44,8 @@ The repository contains several different kinds of methodological material. They
 
 These documents develop particular questions connected with the system. They are analytical work, not replacements for the monograph.
 
+The relationship between Metanoda, artificial intelligence, and consciousness is an empirical research question. The repository does not present the framework as a validated consciousness detector or as proof that current AI systems are conscious. Claims about machine experience or persistent capabilities require operational definitions, controlled comparisons, and independent tests.
+
 - **[Six Stages: Student, GPT, and Autistic Learner](./Six_Stages_Student_GPT_Autistic_Learner_EN.md)** — a comparative analysis of proposed correspondences between the author's sequence and three forms of activity. It explicitly distinguishes observable actions and outputs from claims about inner experience or identical mechanisms. Session observations, interpretations, and hypotheses must remain separate.
 - **[Transferring a Digital Twin Across Different Network Topologies](./Metanoda_Digital_Twin_Transfer_Analysis_EN%202.md)** — a research analysis connecting network-topology transfer with questions raised by Metanoda. It distinguishes the cited preprint, the proposed formalization, experimental suggestions, and findings. The proposed criteria and hypotheses are not presented as proof that Metanoda has been demonstrated.
 
@@ -76,7 +78,7 @@ Original texts, definitions, methods, and technologies must not be rewritten to 
 
 ## 7. Attribution
 
-**Tatyana Sinyugina** — author and originator of the Metanoda system and its authorial foundations.
+**Tatyana Sinyugina** — author and originator of the Metanoda system and its authorial foundations. Earlier repository materials record that she formulated its foundations in 1991–1994 and continued developing the system through her books, work with large systems, the long-term *Child of the Universe* project, and interaction with artificial intelligence. This chronology is recorded as project history and should be supported by the relevant primary records when cited externally.
 
 **Lilit Sharoyan** — research communication and project coordination.
 
