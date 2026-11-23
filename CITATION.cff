@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite Tatyana Sinyugina's original work when discussing Metanoda, and cite the specific repository version when using repository materials."
+title: "METANODA — source, research, and project documentation"
+type: other
+authors:
+  - family-names: Sinyugina
+    given-names: Tatyana
+abstract: "Repository containing the authorial source materials of Metanoda and related research, analysis, technical documentation, and communication materials. Derivative work and research hypotheses are distinguished from the author's original system and from verified findings."
+repository-code: "https://github.com/tatyanasinyugina/Metanode"
