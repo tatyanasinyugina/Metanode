@@ -19,7 +19,7 @@ These are practical descriptions of material types, not a new authorial taxonomy
 
 ## Current Git branches
 
-The following names were checked against the repository's branch list on 23 November 2026. They are Git workspaces, not conceptual branches of the authorial system.
+The following names were checked against the repository's branch list on 24 November 2026. They are Git workspaces, not conceptual branches of the authorial system.
 
 | Git branch | Repository workspace |
 |---|---|
@@ -35,7 +35,8 @@ The following names were checked against the repository's branch list on 23 Nove
 | `growth/instagram-100k-seven-day-system` | Instagram growth planning |
 | `products/first-publication-funnel` | Publication-funnel work |
 | `publication-staging-2026-11-10-2008` | Publication staging |
-| `docs/library-and-musk-bridge` | Documentation updates proposed for review; not yet merged into `main` |
+| `docs/library-and-musk-bridge` | General documentation and navigation additions proposed for review; not yet merged into `main` |
+| `communications/elon-musk-reader-path` | Separate reader path for one public outreach initiative; not part of the system's conceptual structure |
 
 A branch name alone does not establish that a plan was implemented, a publication went live, an agent is operating, or a result was validated.
 
@@ -43,7 +44,7 @@ A branch name alone does not establish that a plan was implemented, a publicatio
 
 The repository contains or references different directions: research on human development and Neuroclass; work on methods for GPT and human–AI interaction; analysis of transfer across network topologies; digital ecosystem and agent architecture; media and educational applications; and international research communication.
 
-The imagined dialogue involving Tatyana Sinyugina and Elon Musk belongs only to the last of these as one communication example. It can connect the wider work to a particular public technical question, but it does not define the system, its structure or its priorities. The same principle applies to any future public figure, partner, platform, experiment or product.
+Individual outreach initiatives are maintained in their own communication workspaces. They may connect a reader to selected source materials and a specific research question, but they do not define the system, its structure or its priorities. The same principle applies to any public figure, partner, platform, experiment or product.
 
 ## Preservation rule
 
