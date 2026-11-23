@@ -36,17 +36,17 @@ The monograph itself identifies its preface as written by GPT at Tatyana Sinyugi
 The repository contains several different kinds of methodological material. They should not be collapsed into one document or treated as interchangeable.
 
 - **[Technology of Collaboration with GPT — PDF](./Technology_of_Collaboration_with_GPT_EN.pdf)** and [editable DOCX](./Technology_of_Collaboration_with_GPT_EN.docx): a separate collaboration-technology document. Its exact authorship, version, and relationship to the monograph's original methods should be taken from the document's own source metadata.
-- **[Six Methods for GPT — Markdown](./Metanode_Six_Methods_for_GPT_EN%202.md)** and [DOCX](./Metanode_Six_Methods_for_GPT_EN%202.docx): a GPT-specific adaptation and operationalization of a six-stage sequence. It is a derivative application, not a replacement for the author's original methods or the whole Metanoda system.
+- **[Six Methods for GPT — Markdown](./Metanode_Six_Methods_for_GPT_EN%202.md)** and [DOCX](./Metanode_Six_Methods_for_GPT_EN%202.docx): a GPT-specific adaptation of material presented as the author's six methods. It is a derivative application, not a replacement for the original source or the whole Metanoda system. Its exact correspondence to the author's original methods remains to be checked against the primary source.
 
 **Source-completeness note:** the GPT adaptation cites an original source named *Шесть методик Татьяны Синюгиной.docx*. That original source file is not present in the current main tree. The adaptation must not be presented as a substitute for it. The original should be added or linked as a separately verified source when its correct version and publication permissions are confirmed.
 
 ## 3. Comparative and research analyses
 
-These documents develop particular questions connected with the system. They are analytical work, not replacements for the monograph.
+These documents develop particular questions connected with the system. They are analytical work, not replacements for the monograph or definitions of the system's methodology.
 
 The relationship between Metanoda, artificial intelligence, and consciousness is an empirical research question. The repository does not present the framework as a validated consciousness detector or as proof that current AI systems are conscious. Claims about machine experience or persistent capabilities require operational definitions, controlled comparisons, and independent tests.
 
-- **[Six Stages: Student, GPT, and Autistic Learner](./Six_Stages_Student_GPT_Autistic_Learner_EN.md)** — a comparative analysis of proposed correspondences between the author's sequence and three forms of activity. It explicitly distinguishes observable actions and outputs from claims about inner experience or identical mechanisms. Session observations, interpretations, and hypotheses must remain separate.
+- **[Six Stages: Student, GPT, and Autistic Learner](./Six_Stages_Student_GPT_Autistic_Learner_EN.md)** — a comparative research analysis involving a student, GPT, and an autistic learner. It is one study/application in the repository, not the organizing methodology of Metanoda and not a source that defines the author's methods. Its observations, interpretations, and hypotheses should be assessed separately; observable actions and outputs do not by themselves establish identical internal processes or experience.
 - **[Transferring a Digital Twin Across Different Network Topologies](./Metanoda_Digital_Twin_Transfer_Analysis_EN%202.md)** — a research analysis connecting network-topology transfer with questions raised by Metanoda. It distinguishes the cited preprint, the proposed formalization, experimental suggestions, and findings. The proposed criteria and hypotheses are not presented as proof that Metanoda has been demonstrated.
 
 ## 4. Digital development and project architecture
