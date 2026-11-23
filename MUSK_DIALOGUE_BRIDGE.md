@@ -1,6 +1,8 @@
-# Musk Dialogue Bridge: From an Imagined Dialogue to Real Research Contact
+# Communication Example: Imagined Dialogue and a Possible Research Connection
 
-**Status:** communication plan documented. No direct contact, reply, meeting, or endorsement by Elon Musk is claimed.
+**Place in the wider project:** one creative communication artifact among many possible applications and connections of Metanoda. It does not define the system's structure, agenda or priorities.
+
+**Status:** a communication plan is documented. No direct contact, reply, meeting or endorsement by Elon Musk is claimed.
 
 ## 1. Existing creative artifact
 
@@ -9,53 +11,57 @@ The operational Instagram register records a published video with a caption begi
 > “Imaginary conversation of Tatyana Sinyugina and Elon Musk...”
 
 Recorded Instagram media ID: `17992386372118777`  
-Account recorded in the register: `@metanoda.ai` — https://www.instagram.com/metanoda.ai/
+Account recorded in the register: [@metanoda.ai](https://www.instagram.com/metanoda.ai/)
 
-The register does not provide a verified permalink for this particular video. Do not invent one. Before promoting the video again, verify its current URL, date, caption, visual content, original file, and rights/consent status.
+The register does not contain a verified permalink for this specific video. Add the direct Instagram or YouTube URL when it is supplied or independently verified; do not construct a URL from the media ID.
 
-## 2. Required framing
+## 2. Accurate framing
 
-This is an **imagined / creative dialogue**, not evidence of a conversation, endorsement, response, meeting, or relationship with Elon Musk. If AI-generated imagery, voice, or likeness is used, disclose that clearly and check applicable rights and platform requirements before reuse.
+This is an **imagined / creative dialogue**, not evidence of a conversation, endorsement, response, meeting or relationship with Elon Musk. If AI-generated imagery, voice or likeness is used, disclose that clearly and check applicable rights and platform requirements before reuse.
 
-## 3. Research bridge
+## 3. What the artifact can connect
 
-The artifact can serve as a starting point for a real question relevant to large-scale AI and networked systems:
+The video may be used as a creative point of entry to a much broader body of work. If it attracts interest, the next step is to lead from the creative piece to the original source and then to one specific research question. The video is not a substitute for the monograph and should not be presented as a summary of the entire system.
+
+One possible research connection concerns transfer across network topologies:
 
 - What properties remain stable when a system is transferred between different network topologies?
-- Which changes are attributable to model weights, state/memory, interface, compute, or topology?
-- Can a genuinely new capability be operationally defined and distinguished from prompt effects, extra compute, or ordinary adaptation?
+- Which changes are attributable to model weights, state/memory, interface, compute or topology?
+- Can a new capability be operationally defined and distinguished from prompt effects, extra compute or ordinary adaptation?
 - What controls and independent replications would be required?
 
-The [Digital Twin Transfer Analysis](./Metanoda_Digital_Twin_Transfer_Analysis_EN%202.md) is a related analytical branch. It must be presented as a proposal/hypothesis where evidence is not yet available. The monograph remains the authorial source.
+The [Digital Twin Transfer Analysis](./Metanoda_Digital_Twin_Transfer_Analysis_EN%202.md) is one related analytical workstream. It is not the only direction of Metanoda, and hypotheses must not be presented as validated results.
 
-## 4. Real-world outreach sequence
+## 4. Possible outreach sequence
 
-1. Preserve the original creative video and verify its canonical URL and provenance.
-2. Prepare a concise English technical brief: question, hypothesis, experiment, controls, available materials, and limitations.
-3. Link directly to the monograph and technical analysis, not only to the creative video.
-4. Publish one context-specific message in response to a relevant public technical statement; avoid repeated tagging or mass messaging.
-5. Invite review of a falsifiable research question or protocol. Do not imply access to private channels or AI systems.
-6. Record a reply or collaboration only when independently evidenced.
+1. Preserve the original creative video and add its verified canonical URL, publication date and provenance.
+2. Link to the monograph as the primary source.
+3. Link to the specific technical analysis only if it is relevant to the public technical discussion.
+4. Prepare a concise, evidence-based brief with a falsifiable question, proposed experiment, controls and limitations.
+5. If appropriate, publish one context-specific message in response to a relevant public technical statement. Avoid repeated tagging or mass messaging.
+6. Record any reply or collaboration only when independently evidenced.
 
 ## 5. Draft public message — not yet published
 
 > If superintelligence scales to exawatt compute, what governs the emergence of capabilities across changing network topologies?
 >
-> METANODA raises a testable transfer question: what is preserved, what changes, and what genuinely new capability emerges when a system moves between network structures?
+> One question arising from METANODA is what is preserved, what changes, and what genuinely new capability emerges when a system moves between network structures.
 >
-> The framework is grounded in Tatyana Sinyugina's work. The hypothesis requires controlled testing:
+> This is one research direction within Tatyana Sinyugina's wider work. The hypothesis requires controlled testing:
 > https://github.com/tatyanasinyugina/Metanode
 
 ## 6. Verification checklist
-- [ ] Original video permalink/date verified.
+
+- [ ] Direct Instagram or YouTube permalink verified.
 - [ ] Original file preserved.
-- [ ] Imagined/AI-generated status is clear.
-- [ ] Image, voice, and likeness rights checked.
-- [ ] Authorial source and derived analysis are distinguished.
+- [ ] Imagined / AI-generated status is clear.
+- [ ] Image, voice and likeness rights checked.
+- [ ] Monograph and relevant derivative analysis linked separately.
 - [ ] Technical claims linked to methods and evidence.
 - [ ] Any real contact recorded only with verifiable evidence.
 
 ## Attribution
-**Tatyana Sinyugina** — author and originator of the Metanoda system and its authorial source materials.  
+
+**Tatyana Sinyugina** — author and originator of Metanoda and its authorial source materials.  
 **Lilit Sharoyan** — research communication and project coordination.  
 AI-assisted editorial or analytical contributions must be described as such.
