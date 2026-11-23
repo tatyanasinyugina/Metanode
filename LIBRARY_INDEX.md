@@ -1,40 +1,43 @@
 # METANODA Library Index
 
-A living navigation catalogue. These sections are editorial navigation aids, not a taxonomy attributed to Tatyana Sinyugina.
+This index is a navigation aid for the existing repository and related materials. It does **not** define a new structure for Metanoda, replace the author's own organization, or imply that the headings below are an authorial taxonomy. The system remains the larger whole; individual files, research questions, applications and communication pieces are connected materials within it.
 
-## A. Authorial core
-- [Tatyana Sinyugina's monograph (RU/EN)](./Метанода_Татьяны_Синюгиной_RU_EN%202.md) — foundational authorial source. Review of the complete text remains ongoing.
-- [Author's website](https://tatiana-siniugina.gv966ysyr2.chatgpt.site/) — external source; no administrative access is currently available to the repository team.
+## Foundational authorial source
 
-## B. Authorial technologies and source documents
-- [Technology of Collaboration with GPT](./Technology_of_Collaboration_with_GPT_EN.pdf) — check title-page attribution and version before quoting.
-- [Six Methods for GPT](./Metanode_Six_Methods_for_GPT_EN%202.md) — operational adaptation for GPT; not the whole Metanoda system.
-- [Six Stages: Student GPT and Autistic Learner](./Six_Stages_Student_GPT_Autistic_Learner_EN.md) — comparative material; distinguish source statements from analysis.
+- [Tatyana Sinyugina's monograph (Russian / English)](./Метанода_Татьяны_Синюгиной_RU_EN%202.md) — central source for the philosophy of human development, its concepts and the author's methods.
+- [Author's website and materials](https://tatiana-siniugina.gv966ysyr2.chatgpt.site/)
 
-## C. Research and experimental branches
-- [Digital Twin Transfer Analysis](./Metanoda_Digital_Twin_Transfer_Analysis_EN%202.md) — transfer across network topologies; distinguish hypotheses from demonstrated results.
-- Neuroclass / human-development research — add individual protocols only after provenance, consent, privacy, and source relationships are checked.
+## Authorial methods and related methodological materials
 
-## D. AI methods and digital ecosystem
-- [AI ecosystem architecture (operational branch)](https://github.com/tatyanasinyugina/Metanode/blob/agents/social-media-execution/docs/METANODA_AI_ECOSYSTEM_ARCHITECTURE_RU.md) — designed architecture; do not imply full deployment without evidence.
-- [Agent and media operations history](https://github.com/tatyanasinyugina/Metanode/tree/agents/social-media-execution) — includes instructions, logs, and operation records. Instructions are not proof of autonomous deployment.
+- [Technology of Collaboration with GPT](./Technology_of_Collaboration_with_GPT_EN.pdf)
+- [Six Methods for GPT](./Metanode_Six_Methods_for_GPT_EN%202.md) — a defined GPT adaptation based on the author's sequence; not a replacement for the whole system.
+- [Six Stages: Student GPT and Autistic Learner](./Six_Stages_Student_GPT_Autistic_Learner_EN.md) — comparative application; observable correspondences are distinguished from claims about internal experience.
 
-## E. Applications and communication
-- [Musk Dialogue Bridge](./MUSK_DIALOGUE_BRIDGE.md) — fictional/imagined artifact explicitly separated from real contact.
-- [Media operations register](https://github.com/tatyanasinyugina/Metanode/blob/agents/social-media-execution/operations/METANODA_MEDIA_OPERATIONS_REGISTER_RU.md)
-- [Social media execution register](https://github.com/tatyanasinyugina/Metanode/blob/agents/social-media-execution/operations/SOCIAL_MEDIA_AGENT_EXECUTION_REGISTER_RU.md)
+## Research and analytical work
 
-## F. External publication
-- [Zenodo record — DOI 10.5281/zenodo.24437259](https://doi.org/10.5281/zenodo.24437259)
+- [Digital Twin Transfer Analysis](./Metanoda_Digital_Twin_Transfer_Analysis_EN%202.md) — analysis of transfer across network topologies; distinguish source premises, analytical interpretations, hypotheses and tested findings.
+- [Neuroclass / human-development research workspace](https://github.com/tatyanasinyugina/Metanode/tree/research/neuroclass) — a related research direction. Consult the source records and permissions before reusing participant materials.
+
+## Digital development and project operations
+
+- [AI ecosystem architecture](./docs/METANODA_AI_ECOSYSTEM_ARCHITECTURE_RU.md) — design document. Its status statement says autonomous agents and external integrations have not yet been deployed.
+- [Agent and media operations branch](https://github.com/tatyanasinyugina/Metanode/tree/agents/social-media-execution) — instructions, records and content operations; branch contents must be checked before making claims about what is currently running.
+- [Media operations branch](https://github.com/tatyanasinyugina/Metanode/tree/ops/metanoda-media-operations)
+
+## Communication examples and external connections
+
+- [Imagined dialogue: Tatyana Sinyugina and Elon Musk](./MUSK_DIALOGUE_BRIDGE.md) — one creative communication artifact and a possible entry point to a real research question. It is not a real conversation or endorsement and is not the centre of the system.
+- [Social media execution records](https://github.com/tatyanasinyugina/Metanode/tree/agents/social-media-execution/operations)
+- [Zenodo record](https://doi.org/10.5281/zenodo.24437259)
+
+## Provenance and project documentation
+
+- [Existing Structure and Working Directions](./BRANCH_MAP.md) — explains the distinction between the authorial system, repository branches and individual directions.
+- [Source and Contribution Register](./SOURCE_REGISTER.md)
+- [Attribution and Use Principles](./ATTRIBUTION_AND_USE.md)
+- [Analytics and Provenance Plan](./ANALYTICS_PLAN.md)
 - [Citation metadata](./CITATION.cff)
-- [Source and contribution register](./SOURCE_REGISTER.md)
 
-## Status vocabulary
-- **Source:** original material or primary record.
-- **Derived:** analysis, translation, adaptation, or implementation based on a source.
-- **Designed:** described in a plan, not necessarily implemented.
-- **Implemented:** present in a working process, with evidence.
-- **Verified:** independently checked against an identified source or reproducible test.
-- **Proposed / unverified:** hypothesis or planned action, not an established result.
+## Adding a new material
 
-For each new entry, record exact title, path, version/date if known, contributor roles, source relationship, rights/consent status, and verification status.
+When adding a file or link, preserve its original title and location where possible. Record its author, date/version, language, source relationship, contributor roles, rights/consent status and verification status. Link it to relevant existing materials without presenting the new item as a replacement for the system's established structure.
