@@ -2,7 +2,7 @@
 
 **Purpose:** a focused public-facing entry point for a possible research conversation with Elon Musk and people working on advanced AI, compute, and networked systems.
 
-**Status:** working communication document. It does not represent contact, a reply, endorsement, meeting, or collaboration. The video link and final outreach text remain pending verification and approval.
+**Status:** working communication document. It does not represent contact, a reply, endorsement, meeting, or collaboration. The supplied YouTube channel and video links are recorded below; final outreach text remains pending review and approval.
 
 ## 1. Position within the whole project
 
@@ -14,9 +14,10 @@ The aim is not to ask a reader to accept a large body of claims at once. It is t
 
 A creative video has been recorded in the project's social-media operations register under the caption beginning “Imaginary conversation of Tatyana Sinyugina and Elon Musk...”.
 
+- YouTube channel: [METANODA — YouTube](https://youtube.com/@metanoda?si=N0x_T4M7-5-XzVFr)
+- Supplied video: [Imagined dialogue video featuring Elon Musk](https://youtu.be/x7XFuPCVyeo?si=lxvQiwwh5YvovX4a)
 - Instagram account recorded in the register: [@metanoda.ai](https://www.instagram.com/metanoda.ai/)
-- Recorded media ID: `17992386372118777`
-- **Direct video URL:** pending. Add the canonical Instagram or YouTube link only after it is supplied or independently verified.
+- Recorded Instagram media ID: `17992386372118777` (direct Instagram permalink not yet verified).
 
 The dialogue is explicitly imagined / creative. It is not a real exchange and must never be presented as a response, endorsement, relationship, or meeting with Elon Musk. The video is an attention and context bridge only; the source materials remain the substance.
 
@@ -93,7 +94,8 @@ This draft is a starting point for editing to the character limit and the contex
 
 ## 7. Pending verification
 
-- [ ] Add the exact Instagram or YouTube video URL.
+- [x] Add the supplied YouTube channel and video URLs.
+- [ ] Verify the YouTube video title, public availability, and that it is the intended imagined-dialogue video.
 - [ ] Verify that every linked file is publicly accessible.
 - [ ] Confirm the preferred public-facing description of the monograph and the specific technical analysis.
 - [ ] Review and approve the final outreach note before publication.
