@@ -1,46 +1,56 @@
-# Metanoda
+# METANODA — The Authorial System of Tatyana Sinyugina
 
-**Metanoda** is a research framework developed by **Tatyana Sinyugina**. It examines what is preserved, transformed, and newly produced when distinct processes interact and information is transferred between them.
+**Metanoda** is the authorial system developed by **Tatyana Sinyugina**. Its foundational source is the author's monograph and the body of original concepts, methods, and technologies developed through her work.
 
-The central research question is:
+> Metanoda is a process of stitching together the peaks of different oscillatory processes, generating a previously unavailable possibility and changing the space of subsequent possibilities. The central question is what is preserved and what emerges during transfer.
 
-> When different systems interact, which patterns remain stable, which are transformed, and what new possibilities emerge that were not available to either system in isolation?
+This repository distinguishes the **authorial core** from research branches, analytical interpretations, AI adaptations, technical implementations, and communication materials. The categories in the library are navigation aids; they are not presented as Tatyana Sinyugina's own classification.
 
-## Why this matters for AI and consciousness
+## Authorial core
 
-The framework motivates an empirical question about biological and artificial intelligence: can interaction produce persistent, transferable patterns that cannot be explained by immediate prompt-following or imitation alone?
+- **Tatyana Sinyugina's monograph (Russian / English):** [Read the monograph](./Метанода_Татьяны_Синюгиной_RU_EN%202.md)
+- **Author's materials:** https://tatiana-siniugina.gv966ysyr2.chatgpt.site/  
+  *The repository team currently has no administrative access to this website.*
 
-This is a research question, not a claim that current AI systems are conscious. The work distinguishes observations, interpretations, and hypotheses; proposed explanations require independent testing.
+The monograph and the author's original technologies form the conceptual trunk. Derivative materials must preserve their source, attribution, and status.
 
-## Research method
+## Research and technology branches
 
-The project uses a **Six Stages** methodology associated with Sinyugina's work to organize inquiry and collaboration with AI systems. The method is intended to make the progression of an investigation explicit: from framing a question, through structured interaction and comparison, to examining what is retained or changed.
+- **Digital Twin Transfer Analysis:** [Transfer across network topologies](./Metanoda_Digital_Twin_Transfer_Analysis_EN%202.md) — a research/analytical branch; hypotheses must not be presented as validated results.
+- **Six Methods for GPT:** [Operational adaptation](./Metanode_Six_Methods_for_GPT_EN%202.md) — an adaptation for GPT interaction, not the entirety of Metanoda.
+- **Six Stages comparison:** [Student GPT and autistic learner](./Six_Stages_Student_GPT_Autistic_Learner_EN.md) — a separate comparative material.
+- **Technology of Collaboration with GPT:** [PDF](./Technology_of_Collaboration_with_GPT_EN.pdf).
 
-The repository documents the framework and related research materials. It is not currently presented as a validated consciousness detector or as proof of machine consciousness.
+## AI, consciousness, and evidence
 
-## Research materials
+The materials may motivate empirical questions about biological and artificial intelligence, transfer, interaction, and the emergence of new possibilities. They do **not** establish that current AI systems are conscious and do not constitute a validated consciousness detector.
 
-- **Monograph — Tatyana Sinyugina (Russian / English):** [Read the monograph and foundational text](https://github.com/lilitsharoian/Metanode/blob/main/%D0%9C%D0%B5%D1%82%D0%B0%D0%BD%D0%BE%D0%B4%D0%B0_%D0%A2%D0%B0%D1%82%D1%8C%D1%8F%D0%BD%D1%8B_%D0%A1%D0%B8%D0%BD%D1%8E%D0%B3%D0%B8%D0%BD%D0%BE%D0%B9_RU_EN%202.md)
-- **Six Stages comparison:** [Student GPT and autistic learner — comparative analysis](https://github.com/lilitsharoian/Metanode/blob/main/Six_Stages_Student_GPT_Autistic_Learner_EN.md)
-- **Collaboration method:** [Technology of Collaboration with GPT (PDF)](https://github.com/lilitsharoian/Metanode/blob/main/Technology_of_Collaboration_with_GPT_EN.pdf)
-- **Digital-twin transfer analysis:** [Read the analysis](https://github.com/lilitsharoian/Metanode/blob/main/Metanoda_Digital_Twin_Transfer_Analysis_EN%202.md)
-- **Published monograph record:** [Zenodo — DOI 10.5281/zenodo.24437259](https://doi.org/10.5281/zenodo.24437259)
+Keep these categories distinct:
+- authorial statements and original source material;
+- observations and records;
+- interpretations and hypotheses;
+- independently verified results;
+- AI-generated analysis and technical adaptations.
 
-## What can be examined
+## Library and project map
 
-Readers and researchers can use these materials to assess:
-
-1. How the framework defines transfer between interacting processes.
-2. What is claimed to remain stable and what is said to emerge.
-3. How the Six Stages method structures human–AI inquiry.
-4. Which observations support the interpretations, and which claims still need controlled, independent tests.
-
-A useful next step is to translate the framework's claims into operational definitions, preregistered predictions, controls, and reproducible procedures.
+- [Library index](./LIBRARY_INDEX.md) — expandable catalogue of materials.
+- [Branch map](./BRANCH_MAP.md) — conceptual branches versus Git branches.
+- [Source and contribution register](./SOURCE_REGISTER.md) — provenance and roles.
+- [Attribution and use principles](./ATTRIBUTION_AND_USE.md) — attribution and rights safeguards.
+- [Analytics plan](./ANALYTICS_PLAN.md) — aggregate repository metrics and future website analytics, subject to access.
+- [Musk Dialogue Bridge](./MUSK_DIALOGUE_BRIDGE.md) — transparent path from an imagined creative artifact to a real research outreach.
 
 ## Authors and project coordination
 
-**Tatyana Sinyugina** — author and originator of the Metanoda system. She formulated its foundations in 1991–1994 and continued developing the system through her books, work with large systems, the long-term *Child of the Universe* project, and interaction with artificial intelligence.
+**Tatyana Sinyugina** — author and originator of the Metanoda system and its authorial source materials.
 
 **Lilit Sharoyan** — research communication and project coordination.
 
-Author's materials: https://tatiana-siniugina.gv966ysyr2.chatgpt.site/
+## Research status
+
+The repository contains source materials, research analyses, operational records, and proposed workflows at different stages of development. A documented architecture or agent instruction does not by itself mean a system is deployed. A hypothesis does not mean a result is verified. Consult each document's status and source register before relying on a claim.
+
+## Citation
+
+See [CITATION.cff](./CITATION.cff) for repository citation metadata. The Zenodo record is [10.5281/zenodo.24437259](https://doi.org/10.5281/zenodo.24437259).
