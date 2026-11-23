@@ -24,11 +24,15 @@ This index is a navigation aid for the existing repository and related materials
 - [Agent and media operations branch](https://github.com/tatyanasinyugina/Metanode/tree/agents/social-media-execution) — instructions, records and content operations; branch contents must be checked before making claims about what is currently running.
 - [Media operations branch](https://github.com/tatyanasinyugina/Metanode/tree/ops/metanoda-media-operations)
 
-## Communication examples and external connections
+## Separate communication initiatives
 
-- [Imagined dialogue: Tatyana Sinyugina and Elon Musk](./MUSK_DIALOGUE_BRIDGE.md) — one creative communication artifact and a possible entry point to a real research question. It is not a real conversation or endorsement and is not the centre of the system.
+- [Elon Musk reader path](https://github.com/tatyanasinyugina/Metanode/blob/communications/elon-musk-reader-path/communications/elon-musk-reader-path/README.md) — a separate outreach package that leads from a creative entry point to the primary source materials and one relevant research question. It does not define or reorganize Metanoda.
 - [Social media execution records](https://github.com/tatyanasinyugina/Metanode/tree/agents/social-media-execution/operations)
 - [Zenodo record](https://doi.org/10.5281/zenodo.24437259)
+
+## Change control and preservation
+
+- [Project Change Control and Preservation Rules](./CHANGE_CONTROL_AND_PRESERVATION.md) — points to the pre-existing project rules for protecting original sources, maintaining derivative branches, recording changes and requiring approval before return to the main system.
 
 ## Provenance and project documentation
 
