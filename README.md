@@ -13,7 +13,7 @@ This repository preserves and documents the author's system and the materials co
 
 The [Library Index](./LIBRARY_INDEX.md) is a practical navigation aid. It helps locate sources and related work without imposing a new authorial classification.
 
-The [Existing Structure and Working Directions](./BRANCH_MAP.md) records the distinction between the enduring authorial system, the repository's actual Git branches, and the additional directions being developed from within the system.
+The [Existing Structure and Working Directions](./STRUCTURE_AND_DIRECTIONS.md) records the distinction between the enduring authorial system, the repository's actual Git branches, and the additional directions being developed from within the system.
 
 ## Materials in the repository
 
