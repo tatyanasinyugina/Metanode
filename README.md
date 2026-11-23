@@ -1,56 +1,48 @@
 # METANODA — The Authorial System of Tatyana Sinyugina
 
-**Metanoda** is the authorial system developed by **Tatyana Sinyugina**. Its foundational source is the author's monograph and the body of original concepts, methods, and technologies developed through her work.
+**Metanoda** is the authorial system developed by **Tatyana Sinyugina**. Its structure, concepts, methods and technologies originate in the author's work and are not defined by any single research project, application, communication campaign or technical implementation.
 
-> Metanoda is a process of stitching together the peaks of different oscillatory processes, generating a previously unavailable possibility and changing the space of subsequent possibilities. The central question is what is preserved and what emerges during transfer.
+The monograph is a central source for understanding the system. It presents the philosophy of human development, the category of **«восьмерка в ноль»** in the anthropological part, and the broader ontological concept of **метанода**. It also describes the author's methods as an empirical foundation for the philosophical system.
 
-This repository distinguishes the **authorial core** from research branches, analytical interpretations, AI adaptations, technical implementations, and communication materials. The categories in the library are navigation aids; they are not presented as Tatyana Sinyugina's own classification.
+- [Read the monograph (Russian / English)](./Метанода_Татьяны_Синюгиной_RU_EN%202.md)
+- [Author's materials and publications](https://tatiana-siniugina.gv966ysyr2.chatgpt.site/)
 
-## Authorial core
+## The system and its existing structure
 
-- **Tatyana Sinyugina's monograph (Russian / English):** [Read the monograph](./Метанода_Татьяны_Синюгиной_RU_EN%202.md)
-- **Author's materials:** https://tatiana-siniugina.gv966ysyr2.chatgpt.site/  
-  *The repository team currently has no administrative access to this website.*
+This repository preserves and documents the author's system and the materials connected with it. The repository's files and Git branches are working locations for different materials and tasks; they do not replace, redefine or reduce the structure of Metanoda.
 
-The monograph and the author's original technologies form the conceptual trunk. Derivative materials must preserve their source, attribution, and status.
+The [Library Index](./LIBRARY_INDEX.md) is a practical navigation aid. It helps locate sources and related work without imposing a new authorial classification.
 
-## Research and technology branches
+The [Existing Structure and Working Directions](./BRANCH_MAP.md) records the distinction between the enduring authorial system, the repository's actual Git branches, and the additional directions being developed from within the system.
 
-- **Digital Twin Transfer Analysis:** [Transfer across network topologies](./Metanoda_Digital_Twin_Transfer_Analysis_EN%202.md) — a research/analytical branch; hypotheses must not be presented as validated results.
-- **Six Methods for GPT:** [Operational adaptation](./Metanode_Six_Methods_for_GPT_EN%202.md) — an adaptation for GPT interaction, not the entirety of Metanoda.
-- **Six Stages comparison:** [Student GPT and autistic learner](./Six_Stages_Student_GPT_Autistic_Learner_EN.md) — a separate comparative material.
-- **Technology of Collaboration with GPT:** [PDF](./Technology_of_Collaboration_with_GPT_EN.pdf).
+## Materials in the repository
 
-## AI, consciousness, and evidence
+The current public repository includes the monograph, authorial and methodological materials, comparative analyses, a digital-twin transfer analysis, and documentation of the proposed AI ecosystem.
 
-The materials may motivate empirical questions about biological and artificial intelligence, transfer, interaction, and the emergence of new possibilities. They do **not** establish that current AI systems are conscious and do not constitute a validated consciousness detector.
+- [Six Methods for GPT](./Metanode_Six_Methods_for_GPT_EN%202.md) — a specific adaptation for working with GPT, not the whole Metanoda system.
+- [Six Stages: Student GPT and Autistic Learner](./Six_Stages_Student_GPT_Autistic_Learner_EN.md) — comparison based on the author's six-stage sequence; proposed correspondences and interpretations are identified as such.
+- [Technology of Collaboration with GPT (PDF)](./Technology_of_Collaboration_with_GPT_EN.pdf)
+- [Digital Twin Transfer Analysis](./Metanoda_Digital_Twin_Transfer_Analysis_EN%202.md)
+- [AI ecosystem architecture](./docs/METANODA_AI_ECOSYSTEM_ARCHITECTURE_RU.md) — a designed architecture; its own status statement distinguishes the design from deployed agents and integrations.
 
-Keep these categories distinct:
-- authorial statements and original source material;
-- observations and records;
-- interpretations and hypotheses;
-- independently verified results;
-- AI-generated analysis and technical adaptations.
+## Additional directions and connections
 
-## Library and project map
+New research questions, experiments, technical tools, applications and communication initiatives can be developed in connection with the system. They are additional directions within the wider work; none of them becomes the system's defining structure merely because it is currently active.
 
-- [Library index](./LIBRARY_INDEX.md) — expandable catalogue of materials.
-- [Branch map](./BRANCH_MAP.md) — conceptual branches versus Git branches.
-- [Source and contribution register](./SOURCE_REGISTER.md) — provenance and roles.
-- [Attribution and use principles](./ATTRIBUTION_AND_USE.md) — attribution and rights safeguards.
-- [Analytics plan](./ANALYTICS_PLAN.md) — aggregate repository metrics and future website analytics, subject to access.
-- [Musk Dialogue Bridge](./MUSK_DIALOGUE_BRIDGE.md) — transparent path from an imagined creative artifact to a real research outreach.
+One such communication example is the [imagined dialogue involving Tatyana Sinyugina and Elon Musk](./MUSK_DIALOGUE_BRIDGE.md). It is treated as a creative artifact and a possible starting point for a real, evidence-based research conversation. It is one small part of the wider project, not the organizing principle of Metanoda. No real conversation, endorsement or contact is implied.
 
-## Authors and project coordination
+## Evidence and status
 
-**Tatyana Sinyugina** — author and originator of the Metanoda system and its authorial source materials.
+Keep authorial statements, source records, observations, interpretations, hypotheses, tested results and public communications distinct. A research proposal is not a verified finding; a documented architecture is not proof of deployment; a creative dialogue is not evidence of a real exchange.
 
-**Lilit Sharoyan** — research communication and project coordination.
+## Attribution
 
-## Research status
+**Tatyana Sinyugina** — author and originator of Metanoda and its authorial source materials.
 
-The repository contains source materials, research analyses, operational records, and proposed workflows at different stages of development. A documented architecture or agent instruction does not by itself mean a system is deployed. A hypothesis does not mean a result is verified. Consult each document's status and source register before relying on a claim.
+**Lilit Sharoyan** — research communication, project coordination and work on the digital development of the project. This role does not imply authorship of the monograph or original authorial technologies.
+
+See [Source and Contribution Register](./SOURCE_REGISTER.md) and [Attribution and Use Principles](./ATTRIBUTION_AND_USE.md).
 
 ## Citation
 
-See [CITATION.cff](./CITATION.cff) for repository citation metadata. The Zenodo record is [10.5281/zenodo.24437259](https://doi.org/10.5281/zenodo.24437259).
+See [CITATION.cff](./CITATION.cff) for repository citation metadata and the [Zenodo record](https://doi.org/10.5281/zenodo.24437259).
