@@ -32,7 +32,7 @@ This index is a navigation aid for the existing repository and related materials
 
 ## Provenance and project documentation
 
-- [Existing Structure and Working Directions](./BRANCH_MAP.md) — explains the distinction between the authorial system, repository branches and individual directions.
+- [Existing Structure and Working Directions](./STRUCTURE_AND_DIRECTIONS.md) — explains the distinction between the authorial system, repository branches and individual directions.
 - [Source and Contribution Register](./SOURCE_REGISTER.md)
 - [Attribution and Use Principles](./ATTRIBUTION_AND_USE.md)
 - [Analytics and Provenance Plan](./ANALYTICS_PLAN.md)
