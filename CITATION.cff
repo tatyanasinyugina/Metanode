@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the original authorial work when discussing Metanoda, and cite the specific repository version when using repository materials."
+title: "METANODA — documentation and research materials"
+type: software
+authors:
+  - family-names: Sinyugina
+    given-names: Tatyana
+abstract: "Repository documenting the authorial Metanoda system of Tatyana Sinyugina and clearly distinguished research, analytical, technical, and communication derivatives. Research hypotheses and AI-assisted analyses are not presented as validated findings."
+repository-code: "https://github.com/tatyanasinyugina/Metanode"
+url: "https://doi.org/10.5281/zenodo.24437259"
