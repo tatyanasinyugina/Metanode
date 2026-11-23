@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite Tatyana Sinyugina's original work when discussing Metanoda, and cite the specific repository version when using repository materials."
 title: "METANODA — source, research, and project documentation"
-type: generic
+type: other
 authors:
   - family-names: Sinyugina
     given-names: Tatyana
