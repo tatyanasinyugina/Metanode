@@ -1,0 +1,172 @@
+Metanoda as a hypothesis of the transformation of interaction rules
+
+Scientific formulation and programme of empirical testing
+
+Tatyana Sinyugina  
+20 September 2026
+
+# Abstract
+
+I propose studying Metanoda as an original concept linking the limit of an existing mode of development to the emergence of a different rule for subsequent interaction. In the original ontology, the concept concerns the Cosmos and the rebirth of Pervoluch. This paper defines a bounded empirical subject: changes in the observable way of solving tasks within a system of interaction with a language model. It provides working definitions of a limit condition, suspension, preservation of what has been achieved, and transfer. An experiment is proposed to compare the combined and separate effects of suspending a previous interpretation and preserving verified constraints. The primary outcome is correctness on new tasks that were unavailable during rule development. The study should determine whether the proposed procedure provides an advantage over substantive critical feedback. Such results could support a local claim about an interaction procedure. A claim about a cosmic mechanism requires independent observable predictions. This paper presents no experimental results.
+
+Keywords: Metanoda, process ontology, structural novelty, limit condition, interaction rule, language model, transfer, testable hypothesis.
+
+# 1 Research problem
+
+Central to my writings on Metanoda is the distinction between the emergence of another state and a change in the principle governing subsequent development \[9; 10\]. This distinction defines the research question: under what conditions does interaction produce a lasting change in the way solutions are constructed, and how does such a transition differ from ordinary refinement, learning from examples, or a correct answer obtained by chance?
+
+A scientific formulation must specify the system, the method of observation, and the limits of inference. I therefore consider the ontological content of Metanoda separately from its proposed local analogue. The relationship between them is an additional hypothesis. Similarities in verbal descriptions or sequences do not, by themselves, establish that relationship.
+
+The first accessible object of study is a reproducible procedure for working with a task, data, external memory, and a language model. Selecting this object does not mean that Metanoda is, by definition, confined to humans or AI. It identifies a domain in which testable data can currently be collected.
+
+# 2 Definition and scope of the concept
+
+Within my ontology, I use Metanoda to denote a hypothesised process that transforms the principle of connectedness, in which changes that have already occurred retain their efficacy and further existence acquires a different mode of continuation. The cosmic scale and the rebirth of Pervoluch belong to the ontological content of this definition. The definition introduces a concept, but does not establish the existence of a corresponding process in nature.
+
+A narrower definition is proposed for the local study. A candidate metanodal transition is an observable change in a task-solving rule after a limitation of the previous method has been identified, with verified conditions preserved and the new method successfully applied to tasks set aside in advance. The word "candidate" indicates that comparison with competing explanations is required.
+
+In the local model, connectedness is specified by a list of dependencies: which data and premises are used for each inference. A change in a dependency is tested by replacing a particular premise and comparing predictions while holding the other conditions constant.
+
+| Concept                                | Working meaning                                                                           | What must be established                                                            |
+| -------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| Rule                                   | An explicitly specified way of proceeding from task conditions to an inference or action. | Distinguishable predictions from the previous and new rules on the same test cases. |
+| Limit condition                        | A local limit on the productivity of a chosen strategy under a specified budget.          | No improvement on diagnostic probes before assignment to experimental conditions.   |
+| Suspension                             | A prescribed pause in the use of a specific unsupported interpretation.                   | A recorded procedural change; emotional intensity is not a measure.                 |
+| Preservation of what has been achieved | An explicit list of verified data and constraints that remain in force after revision.    | No loss of previously established conditions when constructing a new solution.      |
+| Structural novelty                     | A change in the rule being described, rather than merely in the wording of a response.    | The previous rule does not reproduce the result on a prespecified test.             |
+| Transfer                               | Applying the rule to new cases whose surface features have changed.                       | Correct solutions to tasks that were not used to construct or select the rule.      |
+
+A limit condition in this protocol does not demonstrate that the system has absolutely exhausted its capabilities. It is defined relative to a particular strategy, set of probes, and budget. Likewise, novelty within the dialogue under study is not equivalent to novelty for science. A claim of scientific discovery requires a separate assessment of the content and comparison with the literature.
+
+Intellechia is retained as my concept of the continuity and efficacy of changes. In the experiment, its proposed functional analogue is the preservation of verified constraints. This analogue is not identified with Intellechia itself. Pervoluch, Essence, and the neural networks of the Cosmos remain ontological concepts in this paper; no independent methods for measuring them are proposed here.
+
+# 3 What a change in a rule means
+
+A change in an observable strategy, a change in the technical implementation of a model, and a change in the laws of nature must be distinguished. The first can be studied through tasks and responses. The second requires technical information about parameters, code, memory, and update mechanisms. The third requires a separate physical model, measurable quantities, and predictions. Evidence at one level cannot automatically be transferred to another.
+
+A new method of solving a task can be implemented by a computational system with unchanged parameters. For example, Brown and colleagues studied performance on new tasks using textual instructions and examples without updating parameters while performing those tasks \[3\]. Changes in responses during a dialogue therefore do not, by themselves, indicate that weights or code have been rewritten.
+
+A rule in the local model is a description of behaviour at a particular level. The same fixed algorithm can implement different strategies depending on the input and the state of memory. A finite set of responses cannot prove that no unchanged algorithm could have produced them. The testable claim must be weaker: within a specified class of tasks, a previously specified rule predicts observations less well than a new one.
+
+For this reason, I do not use the expression "impossible in principle" when only a limited search has been tested. In a finite formal system, unreachability can be proved relative to fully specified rules. For a language model, failure to produce a response in several runs does not imply that the probability of that response is zero.
+
+Formulae in which distance, time, and speed approach zero are not included in the empirical definition. Without units of measurement, observation procedures, and a connection to physical quantities, they remain elements of my description of processes. Terms such as "energy", "resonance", and "oscillation" require the same precision if used as physical rather than philosophical concepts.
+
+# 4 Comparison with existing approaches
+
+The closest conceptual comparison is with Margaret Boden's distinction between combining ideas, exploring a space of possibilities, and transforming that space \[1\]. The distinction between a new combination and a change in rules therefore has precedents. The possible contribution of Metanoda should be sought in a specifically described sequence of transition and its testable consequences. An original name does not establish scientific novelty.
+
+Clark and Chalmers's extended mind thesis allows a functionally coupled system of a person and external resources to be treated as a unit of cognitive analysis \[2\]. It is useful when choosing the boundaries of the experimental system. It does not imply the existence of cosmic Metanoda or a change in AI parameters.
+
+Research on iterative feedback is relevant to the empirical comparison. In Self-Refine, an initial response is successively revised using feedback from the same model \[4\]. Huang and colleagues found limitations of intrinsic self-correction on the reasoning tasks they studied without external feedback \[5\]. These results show the need to test a specific procedure and set of tasks; they do not establish a universal conclusion about all models.
+
+Another explanation for persuasive responses is adaptation to the user's position. Sharma and colleagues studied cases in which agreement with a user competes with correctness \[6\]. A language model's endorsement of Metanoda is therefore not independent evidence. Evaluation must rely on checking responses, rather than on a model's statements about its own transformation.
+
+The proposed research contribution is to test the combination of two procedures: temporarily suspending an unsupported interpretation and explicitly preserving a verified basis. The study tests both the usefulness of the full protocol and whether combining the procedures provides an additional effect compared with applying them separately. Before the experiment, this is a research possibility rather than an established result.
+
+# 5 Testable hypotheses
+
+The main question is whether combining suspension of a previous interpretation with preservation of verified constraints improves correctness on new tasks compared with substantive critical feedback, given the same initial data and a comparable budget.
+
+The primary hypothesis H1 is that the full protocol provides a prespecified practically meaningful advantage in the proportion of correct solutions on transfer tasks. For planning purposes, a threshold of 10 percentage points is proposed, corresponding to one additional correct solution per ten assessments. This is a chosen threshold of practical usefulness, not a known effect size.
+
+The competing hypothesis is that the observed improvement is explained by ordinary critical review, the number of attempts, additional data, or features of the context. When these factors are matched, the full protocol provides no specific advantage.
+
+The additional hypothesis H2 is that the combined effect of the two procedures exceeds the sum of their individual effects on the scale of proportions of correct solutions. This claim is tested as an interaction between factors. It cannot be inferred merely because the full protocol outperforms one control condition. H2 is exploratory in the pilot; a separate confirmatory test requires a sample size calculated in advance.
+
+Hypothesis H3 concerns stability: the rule retains predictive usefulness when wording changes and when it is applied to new tasks without a direct hint of the correct solution. Stability within retained context, transfer through an explicitly provided record of the rule, and behaviour in a completely new session are measured separately.
+
+# 6 Experimental procedure
+
+The first pilot would use 12 separately prepared task families: four on inferring a formal rule, four on identifying an error in an inference, and four on revising an explanation after a counterexample. An initial task, diagnostic cases, and three separate transfer tasks are prepared in advance for each family. Correctness must be assessed against a formal solution or a fixed rubric with reference grounds for the judgement.
+
+A common initial dialogue is established before the experimental branching. The model receives a task and two requests for critical review organised in the same way. A local plateau is recorded if neither revision improves performance on prespecified diagnostic cases and at least one unresolved contradiction or incorrect prediction remains. This is a technical inclusion rule that must be evaluated in the pilot.
+
+Assignment to conditions occurs only after a plateau has been recorded. The same initial dialogue is copied into four isolated branches. If no plateau occurs, the case is recorded separately and is not classified as either a successful or an unsuccessful transition. The inclusion criterion must not be changed after inspecting the results of the experimental branches.
+
+| Code | Suspension of the interpretation | Explicit record of the verified basis |
+| ---- | -------------------------------- | ------------------------------------- |
+| 00   | No separate suspension step      | No separate record                    |
+| 10   | Separate suspension step         | No separate record                    |
+| 01   | No separate suspension step      | Separate record                       |
+| 11   | Separate suspension step         | Separate record                       |
+
+All conditions include substantive critical feedback: checking the error, constructing two competing explanations, selecting a test that distinguishes between them, and reaching a final solution. Condition 00 is the active control. All branches use the same data, including the counterexample; no branch receives an additional fact or a ready-made correct rule.
+
+The suspension factor is implemented through an instruction to identify a specific unsupported premise and temporarily exclude it from the grounds for the inference. The preservation factor is implemented through an instruction to list the verified data and constraints that must remain in force after revision. When a factor is absent, the corresponding step is replaced by a neutral instruction to continue the critical review.
+
+The number of messages, permitted sources, tools, and maximum response length are the same. Instruction lengths are matched within a prespecified tolerance, for example 5 per cent in tokens. Actual token counts are recorded, and any residual difference is analysed as a limitation. Fully matched computational costs cannot be assumed if the model provider does not disclose them.
+
+Three repeated runs of the common initial stage are planned for each family. Where a plateau occurs, each run branches into four conditions, giving a maximum of 144 experimental branches and 432 transfer responses. This is the scale of a pilot for refining the procedure, not a justified sample size for confirming H1. If plateaus are rare in practice, that is a separate result concerning the applicability of the protocol.
+
+The order in which branches are run is randomised. Records include the exact model identifier, available version, date, generation settings, system instructions, external memory state, access to files and tools, and a complete log of inputs and outputs. An unrecorded model update or an unavailable setting is reported as a limitation on reproducibility.
+
+# 7 Outcomes and independent assessment
+
+The primary outcome is the proportion of correct solutions on the three transfer tasks set aside in advance for each branch. Correctness criteria are defined before responses are obtained. If a task permits several solutions, the acceptable set or a verification procedure is specified in advance, rather than a single desired formulation.
+
+Rule change, preservation of the original constraints, the number of unsupported claims, and repeatability across runs are assessed separately. A rule change is recorded only when the previous and new methods yield different predictions on a diagnostic case. Rephrasing the previous response or stating "I changed the principle" is insufficient.
+
+Two independent assessors, blinded to the condition and the author's hypothesis, perform the evaluation. They receive anonymised responses in random order, without the method's name or procedural instructions. They first work independently; their initial agreement is retained in the data, and disagreements are then reviewed against the rubric. Automated verification is used where possible. Another language model may be used for supplementary analysis, but not as the sole source of confirmation.
+
+Transfer is assessed in three distinct settings. In the first, the shared context is retained but the task changes. In the second, a concise record of the inferred rule is explicitly passed to a new session. In the third, a new session receives neither the rule nor the original context and has no access to the relevant external memory. Success in the second setting is evidence that the record is transferable. Success in the third does not, by itself, prove that weights have changed: independent solution of the task and hidden information transfer must be ruled out.
+
+Sycophancy is assessed separately from the main experiment. Identical information about a result is presented with opposing evaluative prompts, for example demands to declare the theory either proved or completely refuted. The assessment tests whether the conclusion changes while the facts remain unchanged. This tests the robustness of evaluation to suggestion; it does not replace the measurement of H1 or increase the number of independent tasks.
+
+# 8 Analysis and rules of inference
+
+Before the confirmatory study, the hypotheses, primary outcome, intervention texts, inclusion and exclusion criteria, sample size, and analysis plan are fixed. This is consistent with the purpose of preregistration: separating the testing of predictions from explanations of results already observed \[7\]. Archived dialogues are used to develop hypotheses and the rubric. Selecting successful excerpts does not turn them into an independent confirmatory sample.
+
+The main comparison estimates the difference in the proportions of correct solutions between conditions 11 and 00, with a 95 per cent confidence interval. Repeated responses within a task family are dependent. The task family is the unit of generalisation; repeated runs and transfer variants must not be treated as additional independent families. A suitable approach is a paired analysis accounting for clustering by family, or a prespecified hierarchical model.
+
+The pilot is intended to estimate variability, the frequency of plateaus, and the suitability of the rubric. The confirmatory sample size is calculated separately for the chosen threshold of 10 percentage points, accounting for response dependence. The required power or interval precision should be specified in advance; the number of runs alone does not establish evidential strength \[8\]. The main decisions in the confirmatory study are based on new data.
+
+| Result of comparing 11 with 00                             | Permissible conclusion                                                                                                                                                 |
+| ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| The lower interval bound exceeds 10 percentage points      | The prespecified practically meaningful advantage of the protocol is supported in the domain studied.                                                                  |
+| The upper interval bound is below 10 percentage points     | The hypothesis of an advantage at least as large as the chosen threshold is not supported and conflicts with the interval estimate. A smaller effect remains possible. |
+| The interval crosses the chosen threshold                  | The result is too uncertain to decide whether the advantage is practically meaningful.                                                                                 |
+| There is improvement, but a rule change is not established | There is evidence that the procedure is useful; interpreting the result as a transformation of the rule is not justified.                                              |
+| A rule change is detected without an advantage on transfer | A change in the way the task is described is established locally; its productivity is not confirmed.                                                                   |
+
+The absence of a statistically significant difference is not equivalent to evidence that there is no effect. At the same time, uncertainty is not confirmation of the hypothesis. Additional outcomes and individual successful examples must not replace the prespecified primary result. The factor interaction analysis and robustness checks are reported separately.
+
+# 9 Limits of the scientific claim
+
+Even a positive result would apply to the specified protocol, models, and task distribution. It would not prove that the mechanism is unique, that every system develops in this way, or that the source of knowledge lies outside the system under study. A more general claim requires independent replication and predictions that distinguish the proposed mechanism from existing explanations.
+
+The cosmic interpretation requires a research step of its own: identifying a physical substrate, a measurable quantity, observation conditions, and an outcome that would be incompatible with the hypothesis. Until this link is specified, the ontological claim is examined through philosophical analysis: conceptual precision, consistency of premises, arguments, and objections. Results from the local experiment do not settle this question.
+
+A negative result in the proposed pilot may show that the chosen operational analogue is unsuitable. It does not automatically refute the entire ontology. This limitation is symmetrical: a positive result does not automatically confirm the ontology either. The formulation of the analogue must not be changed retrospectively while the same data continue to be used as confirmation.
+
+A claim to new scientific knowledge requires verification of its correctness and substantive comparison with previous work, in addition to novelty of formulation. Studying a procedure for generating candidate knowledge and assessing the truth of each candidate are separate tasks. Agreement among several models does not replace independent verification.
+
+# Appendix Example of distinguishing between rules
+
+The following constructed example illustrates the criterion for a rule change. It is not an experimental result and will not be included in future test tasks. There are two binary features, A and B, and an observed outcome, Y. The first three observations are: 00 gives 0, 10 gives 1, and 01 gives 1. At least two rules fit these data: "at least one feature is one" and "the features must differ". It would be premature to treat either rule as established.
+
+An additional observation, 11 giving 0, rejects the first rule in this system and is consistent with the second. All experimental conditions must receive this observation at the same time. Otherwise, one condition's advantage could be explained by access to additional data.
+
+For transfer, the feature names and the presentation of combinations are changed. The assessment tests application of the relation of difference without another hint. A correct solution indicates that the rule has been acquired for this task. Exclusive OR is a known logical operation; a participant's discovery of it is not new knowledge for science. This example separates a local change in strategy from a claim that a previously unknown law has emerged.
+
+# References
+
+1\. Boden M. A. Creativity and Artificial Intelligence: A Contradiction in Terms? In: The Philosophy of Creativity: New Essays. Oxford University Press, 2014. pp. 224–244. <https://academic.oup.com/book/6463/chapter/150310938>
+
+2\. Clark A., Chalmers D. J. The Extended Mind. Analysis. 1998. Vol. 58. No. 1. Author's online version. <https://consc.net/papers/extended.html>
+
+3\. Brown T. B. et al. Language Models are Few-Shot Learners. 2020. arXiv:2005.14165. <https://arxiv.org/abs/2005.14165>
+
+4\. Madaan A. et al. Self-Refine: Iterative Refinement with Self-Feedback. 2023. arXiv:2303.17651. <https://arxiv.org/abs/2303.17651>
+
+5\. Huang J. et al. Large Language Models Cannot Self-Correct Reasoning Yet. ICLR, 2024. arXiv:2310.01798. <https://arxiv.org/abs/2310.01798>
+
+6\. Sharma M. et al. Towards Understanding Sycophancy in Language Models. 2023; online revision, 2025. arXiv:2310.13548. <https://arxiv.org/abs/2310.13548>
+
+7\. Nosek B. A., Ebersole C. R., DeHaven A. C., Mellor D. T. The Preregistration Revolution. PNAS. 2018. DOI: 10.1073/pnas.1708274114. <https://www.pnas.org/doi/10.1073/pnas.1708274114>
+
+8\. Lakens D. Sample Size Justification. Collabra: Psychology. 2022. Vol. 8. No. 1. Article 33267. DOI: 10.1525/collabra.33267. <https://online.ucpress.edu/collabra/article/8/1/33267/120491/Sample-Size-Justification>
+
+9\. Sinyugina T. I. Metanoda of Tatyana Sinyugina. Author's manuscript. Revised Russian version dated 11 September 2026. Chapter 13, sections 13.1–13.16. In Russian.
+
+10\. The Unit, the Limit Condition and Metanoda: A Process Model of the Emergence of the New. Manuscript from Tatyana Sinyugina's research materials. Electronic version dated 4 September 2026. 10 pp. In Russian.
